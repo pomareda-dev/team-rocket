@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="es-PE">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Team Rocket Store - Tu tienda de Pokémon y Nintendo número uno. Figuras, videojuegos, ropa y ediciones especiales." />
+    <title>Team Rocket Store - Pokémon & Nintendo Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- SITE HEADER -->
+    <header class="site-header" role="banner">
+        <div class="site-header__inner">
+            <a href="#" class="logo" aria-label="Team Rocket Store - Inicio">
+                <div class="logo__icon" aria-hidden="true">
+                    <img src="images/rocket.svg" alt="Rocket" />
+                </div>
+                <span class="logo__text">Team <span>Rocket</span> Store</span>
+            </a>
+
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a href="index.html" class="site-nav__link site-nav__link--active" aria-current="page">Inicio</a>
+                <a href="categories.html" class="site-nav__link">Categorías</a>
+                <a href="about-us.html" class="site-nav__link">Nosotros</a>
+                <a href="contact.html" class="site-nav__link">Contacto</a>
+            </nav>
+
+            <div class="search" role="search">
+                <div class="search__wrapper">
+                    <img src="images/search.svg" class="search__icon" alt="Search" />
+                    <label for="search-desktop" class="visually-hidden">Buscar productos</label>
+                    <input id="search-desktop" class="search__input" type="search"
+                        placeholder="Busca tu Pokémon favorito..."
+                        aria-label="Buscar productos de Pokémon y Nintendo" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Search -->
+        <div class="site-header__search-mobile" role="search">
+            <div class="search" style="display: flex; max-width: 100%">
+                <div class="search__wrapper">
+                    <img src="images/search.svg" class="search__icon" alt="Search" aria-hidden="true" />
+                    <label for="search-mobile" class="visually-hidden">Buscar productos</label>
+                    <input id="search-mobile" class="search__input" type="search"
+                        placeholder="Busca tu Pokémon favorito..."
+                        aria-label="Buscar productos de Pokémon y Nintendo" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <nav class="site-header__mobile-nav" aria-label="Navegación móvil">
+            <ul class="mobile-nav">
+                <li>
+                    <a href="index.html" class="mobile-nav__link mobile-nav__link--active"
+                        aria-current="page">Inicio</a>
+                </li>
+                <li><a href="categories.html" class="mobile-nav__link">Categorías</a></li>
+                <li><a href="about-us.html" class="mobile-nav__link">Nosotros</a></li>
+                <li><a href="contact.html" class="mobile-nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- HERO SECTION -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__inner">
+                <div class="hero__content">
+                    <div class="hero__badge" role="note">
+                        <span class="hero__badge-dot" aria-hidden="true"></span>
+                        Nuevas Colecciones Disponibles
+                    </div>
+                    <h2 id="hero-title" class="hero__title">
+                        ¡Atrápalos todos en <span>Team Rocket Store!</span>
+                    </h2>
+                    <p class="hero__description">
+                        Descubre productos exclusivos y calidad garantizada en tu tienda
+                        Pokémon favorita. Desde figuras legendarias hasta el último
+                        equipamiento de entrenador.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#productos-destacados" class="btn btn--primary">
+                            Ver Productos
+                            <img src="images/move-right.svg" class="btn__icon" alt="Move Right" aria-hidden="true" />
+                        </a>
+                        <a href="#categorias" class="btn btn--outline">
+                            Explorar Categorías
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__visual" aria-hidden="true">
+                    <img class="hero__image" src="images/pikachu-hero.png"
+                        alt="Ilustración de Pikachu y PokéBall en 3D" />
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFITS SECTION -->
+        <section class="benefits" aria-label="Beneficios de comprar en Team Rocket Store">
+            <div class="benefits__grid">
+                <div class="benefit-item">
+                    <div class="benefit-item__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+                            <path d="M15 18H9" />
+                            <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
+                            <circle cx="17" cy="18" r="2" />
+                            <circle cx="7" cy="18" r="2" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="benefit-item__title">Envíos rápidos</h3>
+                        <p class="benefit-item__subtitle">A todo el mundo</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+                            <path d="m9 12 2 2 4-4" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="benefit-item__title">100% Originales</h3>
+                        <p class="benefit-item__subtitle">Licencia oficial</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                            <path d="m9 12 2 2 4-4" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="benefit-item__title">Pagos seguros</h3>
+                        <p class="benefit-item__subtitle">Encriptación 256-bit</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-item__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z" />
+                            <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="benefit-item__title">Atención 24/7</h3>
+                        <p class="benefit-item__subtitle">Estamos para ayudarte</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PRODUCTS -->
+        <section id="productos-destacados" class="section section--alt" aria-labelledby="products-title">
+            <div class="section__card">
+                <header class="section__header">
+                    <div>
+                        <h2 id="products-title" class="section__title">
+                            <span aria-hidden="true">⭐</span> Productos Destacados
+                        </h2>
+                        <p class="section__subtitle">
+                            La selección de los mejores maestros Pokémon
+                        </p>
+                    </div>
+                    <a href="#" class="section__link">
+                        Ver todos
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8L22 12L18 16" />
+                            <path d="M2 12H22" />
+                        </svg>
+                    </a>
+                </header>
+
+                <ul class="products-grid" role="list">
+                    <!-- Product 1 -->
+                    <li>
+                        <article class="product-card">
+                            <div class="product-card__image-wrapper">
+                                <img class="product-card__image" src="images/pikachu-toy.png"
+                                    alt="Figura de acción coleccionable de Pikachu edición especial" />
+                                <span class="product-card__badge product-card__badge--new"
+                                    aria-label="Producto nuevo">Nuevo</span>
+                            </div>
+                            <div class="product-card__body">
+                                <div class="product-card__header">
+                                    <h3 class="product-card__name">
+                                        Figura Pikachu Edición Especial
+                                    </h3>
+                                    <span class="product-card__price">$49.99</span>
+                                </div>
+                                <p class="product-card__description">
+                                    Figura coleccionable de alta gama con base iluminada.
+                                </p>
+                                <a href="#" class="product-card__action"
+                                    aria-label="Ver Figura Pikachu Edición Especial">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="8" cy="21" r="1" />
+                                        <circle cx="19" cy="21" r="1" />
+                                        <path
+                                            d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                                    </svg>
+                                    Ver detalles
+                                </a>
+                            </div>
+                        </article>
+                    </li>
+
+                    <!-- Product 2 -->
+                    <li>
+                        <article class="product-card">
+                            <div class="product-card__image-wrapper">
+                                <img class="product-card__image" src="images/switch-oled.jpg"
+                                    alt="Consola Nintendo Switch modelo OLED color blanco" />
+                                <span class="product-card__badge product-card__badge--popular"
+                                    aria-label="Producto popular">Popular</span>
+                            </div>
+                            <div class="product-card__body">
+                                <div class="product-card__header">
+                                    <h3 class="product-card__name">Nintendo Switch OLED</h3>
+                                    <span class="product-card__price">$349.99</span>
+                                </div>
+                                <p class="product-card__description">
+                                    Blanco Neon. La mejor experiencia de juego portátil.
+                                </p>
+                                <a href="#" class="product-card__action" aria-label="Ver Nintendo Switch OLED">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="8" cy="21" r="1" />
+                                        <circle cx="19" cy="21" r="1" />
+                                        <path
+                                            d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                                    </svg>
+                                    Ver detalles
+                                </a>
+                            </div>
+                        </article>
+                    </li>
+
+                    <!-- Product 3 -->
+                    <li>
+                        <article class="product-card">
+                            <div class="product-card__image-wrapper">
+                                <img class="product-card__image" src="images/gorra-league.png"
+                                    alt="Gorra oficial bordada de la Liga Pokémon" />
+                            </div>
+                            <div class="product-card__body">
+                                <div class="product-card__header">
+                                    <h3 class="product-card__name">Gorra Pokémon League</h3>
+                                    <span class="product-card__price">$24.99</span>
+                                </div>
+                                <p class="product-card__description">
+                                    Talla Única. Bordado premium con el logo oficial de la liga.
+                                </p>
+                                <a href="#" class="product-card__action" aria-label="Ver Gorra Pokémon League">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="8" cy="21" r="1" />
+                                        <circle cx="19" cy="21" r="1" />
+                                        <path
+                                            d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                                    </svg>
+                                    Ver detalles
+                                </a>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+
+                <div class="section__footer">
+                    <a href="#" class="btn btn--neutral">
+                        Ver todos los destacados
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="7" height="7" x="3" y="3" rx="1" />
+                            <rect width="7" height="7" x="14" y="3" rx="1" />
+                            <rect width="7" height="7" x="14" y="14" rx="1" />
+                            <rect width="7" height="7" x="3" y="14" rx="1" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIES SECTION -->
+        <section id="categorias" class="section section--alt" aria-labelledby="categories-title">
+            <div class="section__card">
+                <h2 id="categories-title" class="section__title" style="margin-bottom: 2rem">
+                    <span aria-hidden="true">🕹️</span> Nuestras Categorías
+                </h2>
+
+                <ul class="categories-grid" role="list" aria-label="Categorías de productos">
+                    <li>
+                        <a href="#" class="category-card" aria-label="Videojuegos">
+                            <div class="category-card__icon category-card__icon--blue" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <line x1="6" x2="10" y1="11" y2="11" />
+                                    <line x1="8" x2="8" y1="9" y2="13" />
+                                    <line x1="15" x2="15.01" y1="12" y2="12" />
+                                    <line x1="18" x2="18.01" y1="10" y2="10" />
+                                    <path
+                                        d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                                </svg>
+                            </div>
+                            <span class="category-card__label">Videojuegos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="category-card" aria-label="Figuras">
+                            <div class="category-card__icon category-card__icon--yellow" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+                                    <circle cx="7" cy="17" r="2" />
+                                    <path d="M9 17h6" />
+                                    <circle cx="17" cy="17" r="2" />
+                                </svg>
+                            </div>
+                            <span class="category-card__label">Figuras</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="category-card" aria-label="Ropa">
+                            <div class="category-card__icon category-card__icon--red" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M9 5a3 3 0 1 1 5.1 2.1l-1.5 1.5A2 2 0 0 0 12 10v1" />
+                                    <path d="M4 21a2 2 0 0 1-1.1-3.7L12 11l9.2 6.4A2 2 0 0 1 20 21Z" />
+                                </svg>
+                            </div>
+                            <span class="category-card__label">Ropa</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="category-card" aria-label="Hogar">
+                            <div class="category-card__icon category-card__icon--green" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                                    <path
+                                        d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                </svg>
+                            </div>
+                            <span class="category-card__label">Hogar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="category-card" aria-label="Ediciones Especiales">
+                            <div class="category-card__icon category-card__icon--purple" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+                                    <circle cx="12" cy="8" r="6" />
+                                </svg>
+                            </div>
+                            <span class="category-card__label">Ediciones Esp.</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="cta" aria-labelledby="cta-title">
+            <div class="cta__inner">
+                <img src="images/rocket.svg" alt="Rocket" class="cta__decoration" aria-hidden="true">
+                <div class="cta__content">
+                    <h2 id="cta-title" class="cta__title">
+                        ¿Listo para comenzar tu aventura?
+                    </h2>
+                    <p class="cta__description">
+                        Explora ahora y equípate como un verdadero Maestro Pokémon. ¡No
+                        dejes escapar las mejores ofertas!
+                    </p>
+                    <div class="cta__actions">
+                        <a href="#productos-destacados" class="btn btn--ghost-white">¡Comenzar Ahora!</a>
+                        <a href="#categorias" class="btn btn--outline-white">Ver Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer" role="contentinfo" id="contacto">
+        <div class="site-footer__grid">
+            <div class="site-footer__brand">
+                <a href="#" class="logo" aria-label="Team Rocket Store">
+                    <div class="logo__icon" aria-hidden="true">
+                        <img src="images/rocket.svg" alt="Rocket" />
+                    </div>
+                    <span class="logo__text">Team <span>Rocket</span> Store</span>
+                </a>
+                <p class="site-footer__brand-description">
+                    Tu destino número uno para todo lo relacionado con el universo
+                    Pokémon y Nintendo. Únete al equipo y conquista la liga.
+                </p>
+            </div>
+
+            <nav aria-label="Links de la tienda">
+                <h3 class="site-footer__heading">Tienda</h3>
+                <ul class="site-footer__links">
+                    <li><a href="#" class="site-footer__link">Videojuegos</a></li>
+                    <li><a href="#" class="site-footer__link">Figuras de Acción</a></li>
+                    <li><a href="#" class="site-footer__link">Ropa Oficial</a></li>
+                    <li><a href="#" class="site-footer__link">Novedades</a></li>
+                </ul>
+            </nav>
+
+            <nav aria-label="Links de soporte" id="nosotros">
+                <h3 class="site-footer__heading">Soporte</h3>
+                <ul class="site-footer__links">
+                    <li><a href="#" class="site-footer__link">Envíos y Entregas</a></li>
+                    <li>
+                        <a href="#" class="site-footer__link">Cambios y Devoluciones</a>
+                    </li>
+                    <li>
+                        <a href="#" class="site-footer__link">Términos de Servicio</a>
+                    </li>
+                    <li><a href="#" class="site-footer__link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <h3 class="site-footer__heading">Boletín</h3>
+                <p class="site-footer__newsletter-text">
+                    Recibe noticias de eventos y ofertas exclusivas.
+                </p>
+                <form class="site-footer__newsletter-form" aria-label="Formulario de suscripción al boletín">
+                    <label for="newsletter-email" class="visually-hidden">Tu correo electrónico</label>
+                    <input id="newsletter-email" class="site-footer__newsletter-input" type="email"
+                        placeholder="Tu email" required aria-required="true" />
+                    <button class="site-footer__newsletter-btn" type="submit" aria-label="Suscribirse al boletín">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z" />
+                            <path d="M6 12h16" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="site-footer__bottom">
+            <p>© 2024 Team Rocket Store. Todos los derechos reservados.</p>
+            <nav class="site-footer__legal" aria-label="Links legales">
+                <a href="#">Privacidad</a>
+                <a href="#">Cookies</a>
+                <a href="#">Legal</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
