@@ -16,7 +16,7 @@
 
 <body>
     <!-- SITE HEADER -->
-    <header class="site-header" role="banner">
+    <header class="site-header">
         <div class="site-header__inner">
             <a href="#" class="logo" aria-label="Team Rocket Store - Inicio">
                 <div class="logo__icon" aria-hidden="true">
@@ -37,8 +37,7 @@
                     <img src="images/search.svg" class="search__icon" alt="Search">
                     <label for="search-desktop" class="visually-hidden">Buscar productos</label>
                     <input id="search-desktop" class="search__input" type="search"
-                        placeholder="Busca tu Pokémon favorito..."
-                        aria-label="Buscar productos de Pokémon y Nintendo">
+                        placeholder="Busca tu Pokémon favorito..." aria-label="Buscar productos de Pokémon y Nintendo">
                 </div>
             </div>
         </div>
@@ -50,8 +49,7 @@
                     <img src="images/search.svg" class="search__icon" alt="Search" aria-hidden="true">
                     <label for="search-mobile" class="visually-hidden">Buscar productos</label>
                     <input id="search-mobile" class="search__input" type="search"
-                        placeholder="Busca tu Pokémon favorito..."
-                        aria-label="Buscar productos de Pokémon y Nintendo">
+                        placeholder="Busca tu Pokémon favorito..." aria-label="Buscar productos de Pokémon y Nintendo">
                 </div>
             </div>
         </div>
@@ -191,15 +189,14 @@
                     </a>
                 </header>
 
-                <ul class="products-grid" role="list">
+                <ul class="products-grid">
                     <!-- Product 1 -->
                     <li>
                         <article class="product-card">
                             <div class="product-card__image-wrapper">
                                 <img class="product-card__image" src="images/pikachu-toy.png"
                                     alt="Figura de acción coleccionable de Pikachu edición especial">
-                                <span class="product-card__badge product-card__badge--new"
-                                    aria-label="Producto nuevo">Nuevo</span>
+                                <span class="product-card__badge product-card__badge--new">Nuevo</span>
                             </div>
                             <div class="product-card__body">
                                 <div class="product-card__header">
@@ -233,8 +230,7 @@
                             <div class="product-card__image-wrapper">
                                 <img class="product-card__image" src="images/switch-oled.jpg"
                                     alt="Consola Nintendo Switch modelo OLED color blanco">
-                                <span class="product-card__badge product-card__badge--popular"
-                                    aria-label="Producto popular">Popular</span>
+                                <span class="product-card__badge product-card__badge--popular">Popular</span>
                             </div>
                             <div class="product-card__body">
                                 <div class="product-card__header">
@@ -312,7 +308,7 @@
                     <span aria-hidden="true">🕹️</span> Nuestras Categorías
                 </h2>
 
-                <ul class="categories-grid" role="list" aria-label="Categorías de productos">
+                <ul class="categories-grid" aria-label="Categorías de productos">
                     <li>
                         <a href="#" class="category-card" aria-label="Videojuegos">
                             <div class="category-card__icon category-card__icon--blue" aria-hidden="true">
@@ -460,7 +456,7 @@
                 <form class="site-footer__newsletter-form" aria-label="Formulario de suscripción al boletín">
                     <label for="newsletter-email" class="visually-hidden">Tu correo electrónico</label>
                     <input id="newsletter-email" class="site-footer__newsletter-input" type="email"
-                        placeholder="Tu email" required aria-required="true">
+                        placeholder="Tu email" required>
                     <button class="site-footer__newsletter-btn" type="submit" aria-label="Suscribirse al boletín">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
