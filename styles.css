@@ -39,22 +39,6 @@ button {
   font-family: inherit;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-    "FILL" 0,
-    "wght" 400,
-    "GRAD" 0,
-    "opsz" 24;
-  vertical-align: middle;
-  line-height: 1;
-}
-.material-symbols-outlined--filled {
-  font-variation-settings:
-    "FILL" 1,
-    "wght" 400,
-    "GRAD" 0,
-    "opsz" 24;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -128,6 +112,10 @@ button {
 /* Desktop nav (hidden on mobile) */
 .site-nav {
   display: none;
+}
+
+.site-nav__list {
+  display: flex;
   align-items: center;
   gap: 1.5rem;
 }
@@ -1267,7 +1255,7 @@ button {
 
 @media (min-width: 1024px) {
   .site-nav {
-    display: flex;
+    display: block;
   }
   .hero {
     padding: 5rem 1.5rem;
