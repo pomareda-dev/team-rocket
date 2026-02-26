@@ -1540,13 +1540,21 @@ button {
   transform: scale(0.95);
 }
 
-.about-story__image {
+.about-story__image,
+.about-story__video {
   width: 100%;
   border-radius: 1rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   position: relative;
   aspect-ratio: 16/9;
+}
+
+.about-story__image {
   object-fit: cover;
+}
+
+.about-story__video {
+  border: none;
 }
 
 /* About Misión & Visión */
