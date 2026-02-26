@@ -152,28 +152,85 @@
                     <div class="contact-form-wrapper">
                         <h2 id="contact-title" class="contact-form__title">Envíanos un mensaje</h2>
                         <form class="contact-form" aria-label="Formulario de contacto">
-                            <div class="contact-form__row">
+                            <fieldset class="contact-form__fieldset">
+                                <legend class="contact-form__legend">Tus Datos Personales</legend>
+                                <div class="contact-form__row">
+                                    <div class="contact-form__group">
+                                        <label for="contact-name" class="contact-form__label">Nombre</label>
+                                        <input id="contact-name" class="contact-form__input" type="text"
+                                            placeholder="Tu nombre completo" required>
+                                    </div>
+                                    <div class="contact-form__group">
+                                        <label for="contact-email" class="contact-form__label">Email</label>
+                                        <input id="contact-email" class="contact-form__input" type="email"
+                                            placeholder="tu@email.com" required>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="contact-form__fieldset">
+                                <legend class="contact-form__legend">Detalles de la Consulta</legend>
+                                <div class="contact-form__row">
+                                    <div class="contact-form__group">
+                                        <label for="contact-reason" class="contact-form__label">Motivo de
+                                            Contacto</label>
+                                        <select id="contact-reason" class="contact-form__select" required>
+                                            <option value="" disabled selected>Selecciona un motivo</option>
+                                            <option value="soporte">Soporte Técnico</option>
+                                            <option value="ventas">Ventas y Pedidos</option>
+                                            <option value="sugerencia">Sugerencias y Reclamos</option>
+                                            <option value="alianza">Alianzas Comerciales</option>
+                                        </select>
+                                    </div>
+                                    <div class="contact-form__group">
+                                        <label class="contact-form__label">Preferencias de Respuesta</label>
+                                        <div class="contact-form__radio-group">
+                                            <label class="contact-form__radio-label">
+                                                <input type="radio" name="contact-preference" value="email"
+                                                    class="contact-form__radio" checked>
+                                                Email
+                                            </label>
+                                            <label class="contact-form__radio-label">
+                                                <input type="radio" name="contact-preference" value="whatsapp"
+                                                    class="contact-form__radio">
+                                                WhatsApp
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="contact-form__group">
-                                    <label for="contact-name" class="contact-form__label">Nombre</label>
-                                    <input id="contact-name" class="contact-form__input" type="text"
-                                        placeholder="Tu nombre" required>
+                                    <label for="contact-subject" class="contact-form__label">Asunto</label>
+                                    <input id="contact-subject" class="contact-form__input" type="text"
+                                        placeholder="¿En qué podemos ayudarte?" required>
                                 </div>
                                 <div class="contact-form__group">
-                                    <label for="contact-email" class="contact-form__label">Email</label>
-                                    <input id="contact-email" class="contact-form__input" type="email"
-                                        placeholder="tu@email.com" required>
+                                    <label for="contact-message" class="contact-form__label">Mensaje</label>
+                                    <textarea id="contact-message" class="contact-form__textarea"
+                                        placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
                                 </div>
+                                <div class="contact-form__group">
+                                    <label for="contact-attachment" class="contact-form__label">Subir archivo
+                                        (opcional)</label>
+                                    <input id="contact-attachment" class="contact-form__file" type="file"
+                                        accept=".pdf,.png,.jpg,.jpeg">
+                                </div>
+                            </fieldset>
+
+                            <div class="contact-form__group">
+                                <label class="contact-form__checkbox-label">
+                                    <input type="checkbox" id="contact-newsletter" class="contact-form__checkbox">
+                                    Deseo suscribirme al boletín de Team Rocket Store.
+                                </label>
                             </div>
                             <div class="contact-form__group">
-                                <label for="contact-subject" class="contact-form__label">Asunto</label>
-                                <input id="contact-subject" class="contact-form__input" type="text"
-                                    placeholder="¿En qué podemos ayudarte?" required>
+                                <label class="contact-form__checkbox-label">
+                                    <input type="checkbox" id="contact-terms" class="contact-form__checkbox" required>
+                                    Acepto las <a href="#" class="contact-form__link">políticas de privacidad</a> y
+                                    términos de servicio.
+                                </label>
                             </div>
-                            <div class="contact-form__group">
-                                <label for="contact-message" class="contact-form__label">Mensaje</label>
-                                <textarea id="contact-message" class="contact-form__textarea"
-                                    placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
-                            </div>
+
                             <button type="submit" class="btn btn--primary contact-form__submit">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -185,6 +242,59 @@
                             </button>
                         </form>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-table-section" aria-labelledby="response-times-title">
+            <div class="contact-table-card">
+                <header class="contact-table-header">
+                    <h2 id="response-times-title" class="contact-table-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="contact-table-title-icon">
+                            <circle cx="12" cy="12" r="10" />
+                            <polyline points="12 6 12 12 16 14" />
+                        </svg>
+                        Tiempos de Respuesta Estimados
+                    </h2>
+                    <p class="contact-table-subtitle">
+                        Nos tomamos en serio tu comunicación. Aquí tienes una estimación de cuánto tardamos en
+                        contactarte según tu necesidad.
+                    </p>
+                </header>
+                <div class="table-container">
+                    <table class="contact-table">
+                        <thead>
+                            <tr>
+                                <th>Departamento</th>
+                                <th>Tiempo de Respuesta</th>
+                                <th>Canal Prioritario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Atención al Cliente</strong></td>
+                                <td><span class="badge badge--fast">&lt; 2 horas</span></td>
+                                <td>Chat en vivo</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Soporte Técnico</strong></td>
+                                <td><span class="badge badge--medium">&lt; 4 horas</span></td>
+                                <td>Correo electrónico</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Ventas y Pedidos</strong></td>
+                                <td><span class="badge badge--fast">&lt; 1 hora</span></td>
+                                <td>WhatsApp</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gimnasios y Alianzas</strong></td>
+                                <td><span class="badge badge--slow">24 - 48 horas</span></td>
+                                <td>Formulario Web</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
