@@ -1990,6 +1990,13 @@ button {
   gap: 1rem;
 }
 
+.contact-info__address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .contact-card {
   background: #ffffff;
   border-radius: 2.5rem;
