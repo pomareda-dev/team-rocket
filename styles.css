@@ -1990,11 +1990,8 @@ button {
   gap: 1rem;
 }
 
-.contact-info__address {
+.contact-card__address {
   font-style: normal;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
 .contact-card {
