@@ -46,8 +46,8 @@ button {
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0); /* Older property */
-  clip-path: inset(50%); /* Modern approach, use both for compatibility */
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   border: 0;
   white-space: nowrap;
 }
@@ -1316,10 +1316,6 @@ button {
   }
 }
 
-/* ===========================
-       NOSOTROS PAGE STYLES (Desktop Design)
-    =========================== */
-
 /* About Hero */
 .about-hero {
   position: relative;
@@ -1637,7 +1633,6 @@ button {
 
 .about-values__grid {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
   gap: 1.5rem;
 }
 
@@ -1875,10 +1870,6 @@ button {
     padding: 0 2rem;
   }
 }
-
-/* ===========================
-       CONTACTO PAGE STYLES
-    =========================== */
 
 /* Contact Hero */
 .contact-hero {
@@ -2400,10 +2391,6 @@ button {
     padding: 2rem;
     max-width: 320px;
   }
-
-  /* .contact-map__title {
-    font-size: 1.5rem;
-  } */
 
   .contact-map__container {
     aspect-ratio: unset;
