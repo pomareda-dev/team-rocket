@@ -329,6 +329,14 @@ button {
   transform: scale(1.05);
 }
 
+.hero__caption {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-style: italic;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 .hero__image-wrapper {
   border-radius: 1rem;
   overflow: hidden;
