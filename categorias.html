@@ -11,32 +11,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="view-transition" content="same-origin">
 </head>
 
 <body>
     <header class="site-header">
         <div class="site-header__inner">
-            <a href="index.html" class="logo" aria-label="Team Rocket Store - Inicio">
+            <a href="/index.html" class="logo" aria-label="Team Rocket Store - Inicio">
                 <div class="logo__icon" aria-hidden="true">
-                    <img src="images/rocket.svg" alt="Rocket">
+                    <img src="/images/rocket.svg" alt="Rocket">
                 </div>
                 <span class="logo__text">Team <span>Rocket</span> Store</span>
             </a>
 
             <nav class="site-nav" aria-label="Navegación principal">
                 <ul class="site-nav__list">
-                    <li><a href="index.html" class="site-nav__link">Inicio</a></li>
-                    <li><a href="categorias.html" class="site-nav__link site-nav__link--active"
-                            aria-current="page">Categorías</a></li>
-                    <li><a href="nosotros.html" class="site-nav__link">Nosotros</a></li>
-                    <li><a href="contacto.html" class="site-nav__link">Contacto</a></li>
+                    <li><a href="/index.html" class="site-nav__link">Inicio</a></li>
+                    <li><a href="/categorias.html" class="site-nav__link">Categorías</a></li>
+                    <li><a href="/nosotros.html" class="site-nav__link">Nosotros</a></li>
+                    <li><a href="/contacto.html" class="site-nav__link">Contacto</a></li>
                 </ul>
             </nav>
 
             <div class="search" role="search">
                 <div class="search__wrapper">
-                    <img src="images/search.svg" class="search__icon" alt="Search">
+                    <img src="/images/search.svg" class="search__icon" alt="Search">
                     <label for="search-desktop" class="visually-hidden">Buscar productos</label>
                     <input id="search-desktop" class="search__input" type="search"
                         placeholder="Busca tu Pokémon favorito..." aria-label="Buscar productos de Pokémon y Nintendo">
@@ -44,31 +44,17 @@
             </div>
         </div>
 
-        <div class="site-header__search-mobile" role="search">
-            <div class="search" style="display: flex; max-width: 100%">
-                <div class="search__wrapper">
-                    <img src="images/search.svg" class="search__icon" alt="Search" aria-hidden="true">
-                    <label for="search-mobile" class="visually-hidden">Buscar productos</label>
-                    <input id="search-mobile" class="search__input" type="search"
-                        placeholder="Busca tu Pokémon favorito..." aria-label="Buscar productos de Pokémon y Nintendo">
-                </div>
-            </div>
-        </div>
-
         <nav class="site-header__mobile-nav" aria-label="Navegación móvil">
             <ul class="mobile-nav">
-                <li>
-                    <a href="index.html" class="mobile-nav__link">Inicio</a>
-                </li>
-                <li><a href="categorias.html" class="mobile-nav__link mobile-nav__link--active"
-                        aria-current="page">Categorías</a></li>
-                <li><a href="nosotros.html" class="mobile-nav__link">Nosotros</a></li>
-                <li><a href="contacto.html" class="mobile-nav__link">Contacto</a></li>
+                <li><a href="/index.html" class="mobile-nav__link">Inicio</a></li>
+                <li><a href="/categorias.html" class="mobile-nav__link">Categorías</a></li>
+                <li><a href="/nosotros.html" class="mobile-nav__link">Nosotros</a></li>
+                <li><a href="/contacto.html" class="mobile-nav__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main id="main-content">
+    <main>
         <section class="categories-hero" aria-labelledby="categories-title">
             <div class="categories-hero__inner">
                 <div class="categories-hero__badge" role="note">
@@ -92,7 +78,7 @@
                 <div class="category-cards">
                     <article class="category-card category-card--image" id="videojuegos">
                         <div class="category-card__image-wrapper">
-                            <img src="images/pokemon-games.jpeg" alt="Videojuegos de Pokémon"
+                            <img src="/images/pokemon-games.jpeg" alt="Videojuegos de Pokémon"
                                 class="category-card__image">
                             <div class="category-card__overlay"></div>
                         </div>
@@ -126,7 +112,7 @@
 
                     <article class="category-card category-card--image" id="figuras">
                         <div class="category-card__image-wrapper">
-                            <img src="images/pokemon-figuras.jpg" alt="Figuras de acción de colección"
+                            <img src="/images/pokemon-figuras.jpg" alt="Figuras de acción de colección"
                                 class="category-card__image">
                             <div class="category-card__overlay"></div>
                         </div>
@@ -159,7 +145,7 @@
 
                     <article class="category-card category-card--image" id="ropa">
                         <div class="category-card__image-wrapper">
-                            <img src="images/ropa-pokemon.jpg" alt="Ropa urbana de estilo anime"
+                            <img src="/images/ropa-pokemon.jpg" alt="Ropa urbana de estilo anime"
                                 class="category-card__image">
                             <div class="category-card__overlay"></div>
                         </div>
@@ -189,7 +175,7 @@
 
                     <article class="category-card category-card--image" id="hogar">
                         <div class="category-card__image-wrapper">
-                            <img src="images/sofa-snorlax.jpg" alt="Mochilas tácticas y decoración del hogar"
+                            <img src="/images/sofa-snorlax.jpg" alt="Mochilas tácticas y decoración del hogar"
                                 class="category-card__image">
                             <div class="category-card__overlay"></div>
                         </div>
@@ -220,7 +206,7 @@
 
                     <article class="category-card category-card--image" id="ediciones-especiales">
                         <div class="category-card__image-wrapper">
-                            <img src="images/razer_pokemon_edicion_especial.jpg" alt="Ediciones limitadas exclusivas"
+                            <img src="/images/razer_pokemon_edicion_especial.jpg" alt="Ediciones limitadas exclusivas"
                                 class="category-card__image">
                             <div class="category-card__overlay category-card__overlay--primary"></div>
                             <span class="category-card__badge">Rareza Máxima</span>
@@ -257,9 +243,9 @@
     <footer class="site-footer">
         <div class="site-footer__grid">
             <div class="site-footer__brand">
-                <a href="#" class="logo" aria-label="Team Rocket Store">
+                <a href="/index.html" class="logo" aria-label="Team Rocket Store">
                     <div class="logo__icon" aria-hidden="true">
-                        <img src="images/rocket.svg" alt="Rocket">
+                        <img src="/images/rocket.svg" alt="Rocket">
                     </div>
                     <span class="logo__text">Team <span>Rocket</span> Store</span>
                 </a>
@@ -272,10 +258,10 @@
             <nav aria-label="Links de la tienda">
                 <h3 class="site-footer__heading">Tienda</h3>
                 <ul class="site-footer__links">
-                    <li><a href="#" class="site-footer__link">Videojuegos</a></li>
-                    <li><a href="#" class="site-footer__link">Figuras de Acción</a></li>
-                    <li><a href="#" class="site-footer__link">Ropa Oficial</a></li>
-                    <li><a href="#" class="site-footer__link">Novedades</a></li>
+                    <li><a href="/categorias.html#videojuegos" class="site-footer__link">Videojuegos</a></li>
+                    <li><a href="/categorias.html#figuras" class="site-footer__link">Figuras de Acción</a></li>
+                    <li><a href="/categorias.html#ropa" class="site-footer__link">Ropa Oficial</a></li>
+                    <li><a href="/categorias.html#ediciones-especiales" class="site-footer__link">Novedades</a></li>
                 </ul>
             </nav>
 
@@ -289,7 +275,7 @@
                     <li>
                         <a href="#" class="site-footer__link">Términos de Servicio</a>
                     </li>
-                    <li><a href="contacto.html" class="site-footer__link">Contacto</a></li>
+                    <li><a href="/contacto.html" class="site-footer__link">Contacto</a></li>
                 </ul>
             </nav>
 

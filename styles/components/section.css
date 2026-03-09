@@ -1,0 +1,61 @@
+/* SECTION SHARED STYLES */
+.section {
+  padding: 3.5rem 1.25rem;
+}
+
+.section--alt {
+  background: rgba(241, 245, 249, 0.5);
+}
+
+.section__card {
+  max-width: 1280px;
+  margin-inline: auto;
+  background: #ffffff;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.section__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.section__title {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section__subtitle {
+  font-size: 0.9375rem;
+  color: #64748b;
+  margin-top: 0.3rem;
+}
+
+.section__link {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #ff0000;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+  transition: opacity 0.25s ease;
+}
+.section__link:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+.section__footer {
+  text-align: center;
+  margin-top: 2.5rem;
+}
