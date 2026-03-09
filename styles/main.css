@@ -26,6 +26,7 @@
 @import "./pages/categorias.css";
 @import "./pages/nosotros.css";
 @import "./pages/contacto.css";
+@import "./pages/producto.css";
 
 /* UTILITIES */
 @import "./utilities/responsive.css";
