@@ -11,31 +11,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <meta name="view-transition" content="same-origin">
 </head>
 
 <body>
     <header class="site-header">
         <div class="site-header__inner">
-            <a href="../index.html" class="logo" aria-label="Team Rocket Store - Inicio">
+            <a href="/index.html" class="logo" aria-label="Team Rocket Store - Inicio">
                 <div class="logo__icon" aria-hidden="true">
-                    <img src="../images/rocket.svg" alt="Rocket">
+                    <img src="/images/rocket.svg" alt="Rocket">
                 </div>
                 <span class="logo__text">Team <span>Rocket</span> Store</span>
             </a>
 
             <nav class="site-nav" aria-label="Navegación principal">
                 <ul class="site-nav__list">
-                    <li><a href="../index.html" class="site-nav__link">Inicio</a></li>
-                    <li><a href="../categorias.html" class="site-nav__link">Categorías</a></li>
-                    <li><a href="../nosotros.html" class="site-nav__link">Nosotros</a></li>
-                    <li><a href="../contacto.html" class="site-nav__link">Contacto</a></li>
+                    <li><a href="/index.html" class="site-nav__link">Inicio</a></li>
+                    <li><a href="/categorias.html" class="site-nav__link">Categorías</a></li>
+                    <li><a href="/nosotros.html" class="site-nav__link">Nosotros</a></li>
+                    <li><a href="/contacto.html" class="site-nav__link">Contacto</a></li>
                 </ul>
             </nav>
 
             <div class="search" role="search">
                 <div class="search__wrapper">
-                    <img src="../images/search.svg" class="search__icon" alt="Search">
+                    <img src="/images/search.svg" class="search__icon" alt="Search">
                     <label for="search-desktop" class="visually-hidden">Buscar productos</label>
                     <input id="search-desktop" class="search__input" type="search"
                         placeholder="Busca tu Pokémon favorito..." aria-label="Buscar productos de Pokémon y Nintendo">
@@ -45,10 +46,10 @@
 
         <nav class="site-header__mobile-nav" aria-label="Navegación móvil">
             <ul class="mobile-nav">
-                <li><a href="../index.html" class="mobile-nav__link">Inicio</a></li>
-                <li><a href="../categorias.html" class="mobile-nav__link">Categorías</a></li>
-                <li><a href="../nosotros.html" class="mobile-nav__link">Nosotros</a></li>
-                <li><a href="../contacto.html" class="mobile-nav__link">Contacto</a></li>
+                <li><a href="/index.html" class="mobile-nav__link">Inicio</a></li>
+                <li><a href="/categorias.html" class="mobile-nav__link">Categorías</a></li>
+                <li><a href="/nosotros.html" class="mobile-nav__link">Nosotros</a></li>
+                <li><a href="/contacto.html" class="mobile-nav__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -66,7 +67,7 @@
             <div class="product-detail__grid">
                 <div class="product-gallery">
                     <img src="../images/switch-oled.jpg" alt="Nintendo Switch OLED Blanco"
-                        class="product-gallery__image">
+                        class="product-gallery__image" style="view-transition-name: switch-image;">
                 </div>
 
                 <div class="product-info">
@@ -150,9 +151,9 @@
     <footer class="site-footer">
         <div class="site-footer__grid">
             <div class="site-footer__brand">
-                <a href="#" class="logo" aria-label="Team Rocket Store">
+                <a href="/index.html" class="logo" aria-label="Team Rocket Store">
                     <div class="logo__icon" aria-hidden="true">
-                        <img src="images/rocket.svg" alt="Rocket">
+                        <img src="/images/rocket.svg" alt="Rocket">
                     </div>
                     <span class="logo__text">Team <span>Rocket</span> Store</span>
                 </a>
@@ -182,7 +183,7 @@
                     <li>
                         <a href="#" class="site-footer__link">Términos de Servicio</a>
                     </li>
-                    <li><a href="contacto.html" class="site-footer__link">Contacto</a></li>
+                    <li><a href="/contacto.html" class="site-footer__link">Contacto</a></li>
                 </ul>
             </nav>
 
