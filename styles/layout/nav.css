@@ -1,0 +1,53 @@
+/* Desktop nav (hidden on mobile) */
+.site-nav {
+  display: none;
+}
+
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.site-nav__link {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0f172a;
+  transition: color 0.25s ease;
+}
+.site-nav__link:hover,
+.site-nav__link--active {
+  color: #ff0000;
+}
+
+/* Mobile nav (horizontal scroll) */
+.site-header__mobile-nav {
+  margin-top: 0.875rem;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.site-header__mobile-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #64748b;
+  white-space: nowrap;
+  padding: 0.125rem 0.125rem 0.5rem;
+}
+
+.mobile-nav__link {
+  transition: color 0.25s ease;
+}
+.mobile-nav__link:hover {
+  color: #ff0000;
+}
+.mobile-nav__link--active {
+  color: #ff0000;
+}

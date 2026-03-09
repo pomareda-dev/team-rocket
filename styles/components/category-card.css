@@ -1,0 +1,199 @@
+/* CATEGORIES SECTION (Icon Cards) */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.category-card {
+  background: #f1f5f9;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.category-card:hover {
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.category-card__icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.875rem;
+  transition: transform 0.25s ease;
+}
+.category-card:hover .category-card__icon {
+  transform: scale(1.1);
+}
+
+.category-card__icon--blue {
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+}
+.category-card__icon--yellow {
+  background: rgba(234, 179, 8, 0.1);
+  color: #eab308;
+}
+.category-card__icon--red {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+.category-card__icon--green {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+}
+.category-card__icon--purple {
+  background: rgba(168, 85, 247, 0.1);
+  color: #a855f7;
+}
+
+.category-card__label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* IMAGE-BASED CATEGORY CARDS (used in pages) */
+.category-card--image {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+}
+
+.category-card--image:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.category-card__image-wrapper {
+  position: relative;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.category-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.category-card--image:hover .category-card__image {
+  transform: scale(1.08);
+}
+
+.category-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.75), transparent 60%);
+}
+
+.category-card__overlay--primary {
+  background: linear-gradient(to top, rgba(255, 0, 0, 0.8), transparent 60%);
+}
+
+.category-card__content {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.category-card__icon-wrapper {
+  position: absolute;
+  top: -1.75rem;
+  left: 1.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff0000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+}
+
+.category-card--image:hover .category-card__icon-wrapper {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #fff;
+}
+
+.category-card__icon-wrapper--primary {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #fff;
+}
+
+.category-card__title {
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.category-card__description {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.category-card__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  border-radius: 0.5rem;
+  background: #f1f5f9;
+  color: #0f172a;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  border: 1px solid #e2e8f0;
+  transition: all 0.25s ease;
+}
+
+.category-card__btn .material-symbols-outlined {
+  font-size: 1.125rem;
+  transition: transform 0.25s ease;
+}
+
+.category-card--image:hover .category-card__btn {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #fff;
+}
+
+.category-card--image:hover .category-card__btn .material-symbols-outlined {
+  transform: translateX(4px);
+}
+
+.category-card__btn--primary {
+  background: #0f172a;
+  border-color: #0f172a;
+  color: #fff;
+}
+
+.category-card__btn--primary:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+}
