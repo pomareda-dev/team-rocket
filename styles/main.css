@@ -7,7 +7,6 @@
 
 /* LAYOUT */
 @import "./layout/header.css";
-@import "./layout/nav.css";
 @import "./layout/search.css";
 @import "./layout/footer.css";
 @import "./layout/bottom-nav.css";
