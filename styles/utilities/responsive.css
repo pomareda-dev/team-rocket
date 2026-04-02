@@ -1,7 +1,7 @@
 /* RESPONSIVE — TABLET & DESKTOP GLOBAL */
 
 @media (min-width: 640px) {
-  .hero__actions {
+  .apc-hero__actions {
     flex-direction: row;
   }
   .cta__actions {
@@ -28,9 +28,6 @@
   .bottom-nav {
     display: none;
   }
-  .fab {
-    bottom: 2rem;
-  }
   .benefits__grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -42,12 +39,12 @@
     justify-content: space-between;
     text-align: left;
   }
-  .hero__actions {
+  .apc-hero__actions {
     justify-content: center;
   }
 
   /* Categories page tablet */
-  .category-cards {
+  .apc-category-card {
     grid-template-columns: repeat(2, 1fr);
   }
   .category-card--featured {
@@ -59,23 +56,23 @@
   .site-nav {
     display: block;
   }
-  .hero {
+  .apc-hero {
     padding: 5rem 1.5rem;
   }
-  .hero__inner {
+  .apc-hero__inner {
     flex-direction: row;
     align-items: center;
   }
-  .hero__content {
+  .apc-hero__content {
     text-align: left;
   }
-  .hero__description {
+  .apc-hero__description {
     margin-inline: 0;
   }
-  .hero__actions {
+  .apc-hero__actions {
     justify-content: flex-start;
   }
-  .hero__badge {
+  .apc-hero__badge {
     margin-bottom: 1.5rem;
   }
   .products-grid {
@@ -98,7 +95,7 @@
   .categories-section {
     padding: 3rem 1.5rem 5rem;
   }
-  .category-cards {
+  .apc-category-card {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }

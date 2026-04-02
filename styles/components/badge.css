@@ -1,5 +1,4 @@
-/* Badges */
-.badge {
+.apc-badge {
   display: inline-flex;
   align-items: center;
   padding: 0.25rem 0.75rem;
@@ -8,22 +7,22 @@
   font-weight: 600;
 }
 
-.badge--fast {
+.apc-badge--fast {
   background: rgba(34, 197, 94, 0.1);
   color: #16a34a;
 }
 
-.badge--medium {
+.apc-badge--medium {
   background: rgba(234, 179, 8, 0.1);
   color: #ca8a04;
 }
 
-.badge--slow {
+.apc-badge--slow {
   background: rgba(239, 68, 68, 0.1);
   color: #dc2626;
 }
 
-.hero__badge {
+.apc-hero__badge {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -38,14 +37,14 @@
   margin-bottom: 1.25rem;
 }
 
-.hero__badge-dot {
+.apc-hero__badge-dot {
   position: relative;
   display: inline-flex;
   width: 0.5rem;
   height: 0.5rem;
 }
 
-.hero__badge-dot::before {
+.apc-hero__badge-dot::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -55,7 +54,7 @@
   opacity: 0.75;
 }
 
-.hero__badge-dot::after {
+.apc-hero__badge-dot::after {
   content: "";
   position: relative;
   width: 0.5rem;
@@ -64,7 +63,7 @@
   border-radius: 50%;
 }
 
-.categories-hero__badge {
+.apc-categories-hero__badge {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -79,14 +78,14 @@
   margin-bottom: 1.25rem;
 }
 
-.categories-hero__badge-dot {
+.apc-categories-hero__badge-dot {
   position: relative;
   display: inline-flex;
   width: 0.5rem;
   height: 0.5rem;
 }
 
-.categories-hero__badge-dot::before {
+.apc-categories-hero__badge-dot::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -96,7 +95,7 @@
   opacity: 0.75;
 }
 
-.categories-hero__badge-dot::after {
+.apc-categories-hero__badge-dot::after {
   content: "";
   position: relative;
   width: 0.5rem;

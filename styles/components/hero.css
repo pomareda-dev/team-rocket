@@ -1,9 +1,8 @@
-/* HERO SECTION */
-.hero {
+.apc-hero {
   padding: 3rem 1.25rem 2rem;
 }
 
-.hero__inner {
+.apc-hero__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,12 +12,12 @@
   position: relative;
 }
 
-.hero__content {
+.apc-hero__content {
   flex: 1;
   text-align: center;
 }
 
-.hero__title {
+.apc-hero__title {
   font-size: clamp(2rem, 8vw, 4.5rem);
   font-weight: 800;
   line-height: 1.1;
@@ -27,12 +26,12 @@
   margin-bottom: 1.25rem;
 }
 
-.hero__title span {
+.apc-hero__title span {
   color: #ff0000;
   font-style: italic;
 }
 
-.hero__description {
+.apc-hero__description {
   font-size: 1rem;
   color: #64748b;
   max-width: 36rem;
@@ -40,7 +39,7 @@
   margin-bottom: 2rem;
 }
 
-.hero__actions {
+.apc-hero__actions {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -48,13 +47,13 @@
   justify-content: center;
 }
 
-.hero__visual {
+.apc-hero__visual {
   flex: 1;
   position: relative;
   width: 100%;
 }
 
-.hero__image {
+.apc-hero__image {
   width: 100%;
   max-width: 500px;
   margin-inline: auto;
@@ -63,11 +62,11 @@
   transition: transform 0.5s ease;
 }
 
-.hero__image:hover {
+.apc-hero__image:hover {
   transform: scale(1.05);
 }
 
-.hero__caption {
+.apc-hero__caption {
   font-size: 0.75rem;
   color: #64748b;
   font-style: italic;
@@ -75,34 +74,35 @@
   text-align: center;
 }
 
-.hero__image-wrapper {
+.apc-hero__image-wrapper {
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.12);
   position: relative;
 }
 
-.hero__image-overlay {
+.apc-hero__image-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(255, 0, 0, 0.35), transparent);
 }
 
-/* Decorative blurs */
-.hero__blob {
+.apc-hero__blob {
   position: absolute;
   border-radius: 50%;
   filter: blur(60px);
   pointer-events: none;
 }
-.hero__blob--top {
+
+.apc-hero__blob--top {
   width: 16rem;
   height: 16rem;
   background: rgba(255, 0, 0, 0.15);
   top: -5rem;
   right: -5rem;
 }
-.hero__blob--bottom {
+
+.apc-hero__blob--bottom {
   width: 16rem;
   height: 16rem;
   background: rgba(255, 0, 0, 0.08);

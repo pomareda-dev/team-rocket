@@ -1,6 +1,4 @@
-/* Search */
 .search {
-  display: none;
   flex: 1;
   max-width: 26rem;
 }
@@ -35,13 +33,4 @@
 }
 .search__input::placeholder {
   color: #94a3b8;
-}
-
-/* Mobile search (below header bar) */
-.site-header__search-mobile {
-  margin-top: 0.75rem;
-}
-.site-header__search-mobile .search {
-  display: flex;
-  max-width: 100%;
 }

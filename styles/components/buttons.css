@@ -1,5 +1,4 @@
-/* BUTTONS */
-.btn {
+.apc-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -12,62 +11,61 @@
   border: 2px solid transparent;
 }
 
-.btn__icon {
+.apc-btn__icon {
   width: 1.25rem;
   height: 1.25rem;
 }
 
-.btn--primary {
+.apc-btn--primary {
   background: #ff0000;
   color: #fff;
   box-shadow: 0 8px 24px rgba(255, 0, 0, 0.2);
 }
-.btn--primary:hover {
+.apc-btn--primary:hover {
   background: #cc0000;
   transform: scale(1.03);
 }
-.btn--primary:active {
+.apc-btn--primary:active {
   transform: scale(0.97);
 }
 
-.btn--outline {
+.apc-btn--outline {
   background: #ffffff;
   color: #0f172a;
   border-color: #e2e8f0;
 }
-.btn--outline:hover {
+.apc-btn--outline:hover {
   background: #f1f5f9;
 }
 
-.btn--outline-white {
+.apc-btn--outline-white {
   background: transparent;
   color: #fff;
   border-color: rgba(255, 255, 255, 0.3);
 }
-.btn--outline-white:hover {
+.apc-btn--outline-white:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.btn--ghost-white {
+.apc-btn--ghost-white {
   background: #fff;
   color: #ff0000;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
-.btn--ghost-white:hover {
+.apc-btn--ghost-white:hover {
   background: #f1f5f9;
   transform: scale(1.03);
 }
 
-.btn--neutral {
+.apc-btn--neutral {
   background: #f1f5f9;
   color: #0f172a;
 }
-.btn--neutral:hover {
+.apc-btn--neutral:hover {
   background: #e2e8f0;
 }
 
-/* Outlined white button for pages */
-.btn--outline-white {
+.apc-btn--outline-white {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -83,13 +81,12 @@
   transition: all 0.25s ease;
 }
 
-.btn--outline-white:hover {
+.apc-btn--outline-white:hover {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* CTA Button */
-.btn--cta-white {
+.apc-btn--cta-white {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -106,7 +103,7 @@
   cursor: pointer;
 }
 
-.btn--cta-white:hover {
+.apc-btn--cta-white:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
