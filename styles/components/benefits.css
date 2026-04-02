@@ -1,10 +1,9 @@
-/* BENEFITS SECTION */
-.benefits {
+.apc-benefits {
   border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
 }
 
-.benefit-item {
+.apc-benefit-item {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -12,11 +11,11 @@
   border-radius: 1rem;
   transition: background 0.25s ease;
 }
-.benefit-item:hover {
+.apc-benefit-item:hover {
   background: #f1f5f9;
 }
 
-.benefit-item__icon {
+.apc-benefit-item__icon {
   flex-shrink: 0;
   width: 3rem;
   height: 3rem;
@@ -28,18 +27,18 @@
   justify-content: center;
   transition: all 0.25s ease;
 }
-.benefit-item:hover .benefit-item__icon {
+.apc-benefit-item:hover .apc-benefit-item__icon {
   background: #ff0000;
   color: #fff;
 }
 
-.benefit-item__title {
+.apc-benefit-item__title {
   font-size: 0.9375rem;
   font-weight: 700;
   color: #0f172a;
 }
 
-.benefit-item__subtitle {
+.apc-benefit-item__subtitle {
   font-size: 0.75rem;
   color: #64748b;
   margin-top: 0.125rem;

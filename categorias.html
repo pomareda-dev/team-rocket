@@ -49,7 +49,7 @@
                     <form class="search" role="search">
                         <div class="search__wrapper">
                             <img src="/images/search.svg" class="search__icon" alt="Search">
-                            <label for="search-desktop" class="visually-hidden">Buscar productos</label>
+                            <label for="search-desktop" class="apc-visually-hidden">Buscar productos</label>
                             <input id="search-desktop" class="search__input" type="search"
                                 placeholder="Busca tu Pokémon favorito..."
                                 aria-label="Buscar productos de Pokémon y Nintendo">
@@ -63,8 +63,8 @@
     <main>
         <section class="categories-hero" aria-labelledby="categories-title">
             <div class="categories-hero__inner">
-                <div class="categories-hero__badge" role="note">
-                    <span class="categories-hero__badge-dot" aria-hidden="true"></span>
+                <div class="apc-categories-hero__badge" role="note">
+                    <span class="apc-categories-hero__badge-dot" aria-hidden="true"></span>
                     5 Categorías Disponibles
                 </div>
                 <h1 id="categories-title" class="categories-hero__title">
@@ -79,17 +79,17 @@
 
         <section class="categories-section" aria-labelledby="categories-grid-title">
             <div class="categories-section__inner">
-                <h2 id="categories-grid-title" class="visually-hidden">Lista de categorías</h2>
+                <h2 id="categories-grid-title" class="apc-visually-hidden">Lista de categorías</h2>
 
-                <div class="category-cards">
-                    <article class="category-card category-card--image" id="videojuegos">
-                        <div class="category-card__image-wrapper">
+                <div class="apc-category-cards">
+                    <article class="apc-category-card apc-category-card--image" id="videojuegos">
+                        <div class="apc-category-card__image-wrapper">
                             <img src="/images/pokemon-games.jpeg" alt="Videojuegos de Pokémon"
-                                class="category-card__image">
-                            <div class="category-card__overlay"></div>
+                                class="apc-category-card__image">
+                            <div class="apc-category-card__overlay"></div>
                         </div>
-                        <div class="category-card__content">
-                            <div class="category-card__icon-wrapper">
+                        <div class="apc-category-card__content">
+                            <div class="apc-category-card__icon-wrapper">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -101,10 +101,10 @@
                                         d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
                                 </svg>
                             </div>
-                            <h3 class="category-card__title">Videojuegos</h3>
-                            <p class="category-card__description">Explora los últimos títulos de la franquicia y
+                            <h3 class="apc-category-card__title">Videojuegos</h3>
+                            <p class="apc-category-card__description">Explora los últimos títulos de la franquicia y
                                 consolas exclusivas.</p>
-                            <a href="#" class="category-card__btn" aria-label="Explorar Videojuegos">
+                            <a href="#" class="apc-category-card__btn" aria-label="Explorar Videojuegos">
                                 Explorar
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -116,14 +116,14 @@
                         </div>
                     </article>
 
-                    <article class="category-card category-card--image" id="figuras">
-                        <div class="category-card__image-wrapper">
+                    <article class="apc-category-card apc-category-card--image" id="figuras">
+                        <div class="apc-category-card__image-wrapper">
                             <img src="/images/pokemon-figuras.jpg" alt="Figuras de acción de colección"
-                                class="category-card__image">
-                            <div class="category-card__overlay"></div>
+                                class="apc-category-card__image">
+                            <div class="apc-category-card__overlay"></div>
                         </div>
-                        <div class="category-card__content">
-                            <div class="category-card__icon-wrapper">
+                        <div class="apc-category-card__content">
+                            <div class="apc-category-card__icon-wrapper">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -134,10 +134,10 @@
                                     <circle cx="17" cy="17" r="2" />
                                 </svg>
                             </div>
-                            <h3 class="category-card__title">Figuras</h3>
-                            <p class="category-card__description">Estatuas de alta gama, Funko Pops y sets de cartas
+                            <h3 class="apc-category-card__title">Figuras</h3>
+                            <p class="apc-category-card__description">Estatuas de alta gama, Funko Pops y sets de cartas
                                 intercambiables.</p>
-                            <a href="#" class="category-card__btn" aria-label="Explorar Figuras">
+                            <a href="#" class="apc-category-card__btn" aria-label="Explorar Figuras">
                                 Explorar
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -149,14 +149,14 @@
                         </div>
                     </article>
 
-                    <article class="category-card category-card--image" id="ropa">
-                        <div class="category-card__image-wrapper">
+                    <article class="apc-category-card apc-category-card--image" id="ropa">
+                        <div class="apc-category-card__image-wrapper">
                             <img src="/images/ropa-pokemon.jpg" alt="Ropa urbana de estilo anime"
-                                class="category-card__image">
-                            <div class="category-card__overlay"></div>
+                                class="apc-category-card__image">
+                            <div class="apc-category-card__overlay"></div>
                         </div>
-                        <div class="category-card__content">
-                            <div class="category-card__icon-wrapper">
+                        <div class="apc-category-card__content">
+                            <div class="apc-category-card__icon-wrapper">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -164,10 +164,11 @@
                                     <path d="M4 21a2 2 0 0 1-1.1-3.7L12 11l9.2 6.4A2 2 0 0 1 20 21Z" />
                                 </svg>
                             </div>
-                            <h3 class="category-card__title">Ropa</h3>
-                            <p class="category-card__description">Sudaderas, camisetas y gorras con el icónico emblema
+                            <h3 class="apc-category-card__title">Ropa</h3>
+                            <p class="apc-category-card__description">Sudaderas, camisetas y gorras con el icónico
+                                emblema
                                 de Team Rocket.</p>
-                            <a href="#" class="category-card__btn" aria-label="Explorar Ropa">
+                            <a href="#" class="apc-category-card__btn" aria-label="Explorar Ropa">
                                 Explorar
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -179,14 +180,14 @@
                         </div>
                     </article>
 
-                    <article class="category-card category-card--image" id="hogar">
-                        <div class="category-card__image-wrapper">
+                    <article class="apc-category-card apc-category-card--image" id="hogar">
+                        <div class="apc-category-card__image-wrapper">
                             <img src="/images/sofa-snorlax.jpg" alt="Mochilas tácticas y decoración del hogar"
-                                class="category-card__image">
-                            <div class="category-card__overlay"></div>
+                                class="apc-category-card__image">
+                            <div class="apc-category-card__overlay"></div>
                         </div>
-                        <div class="category-card__content">
-                            <div class="category-card__icon-wrapper">
+                        <div class="apc-category-card__content">
+                            <div class="apc-category-card__icon-wrapper">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -195,10 +196,11 @@
                                         d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                                 </svg>
                             </div>
-                            <h3 class="category-card__title">Hogar</h3>
-                            <p class="category-card__description">Equipamiento táctico, tazas y decoración para el hogar
+                            <h3 class="apc-category-card__title">Hogar</h3>
+                            <p class="apc-category-card__description">Equipamiento táctico, tazas y decoración para el
+                                hogar
                                 de entrenadores.</p>
-                            <a href="#" class="category-card__btn" aria-label="Explorar Hogar">
+                            <a href="#" class="apc-category-card__btn" aria-label="Explorar Hogar">
                                 Explorar
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -210,15 +212,15 @@
                         </div>
                     </article>
 
-                    <article class="category-card category-card--image" id="ediciones-especiales">
-                        <div class="category-card__image-wrapper">
+                    <article class="apc-category-card apc-category-card--image" id="ediciones-especiales">
+                        <div class="apc-category-card__image-wrapper">
                             <img src="/images/razer_pokemon_edicion_especial.jpg" alt="Ediciones limitadas exclusivas"
-                                class="category-card__image">
-                            <div class="category-card__overlay category-card__overlay--primary"></div>
-                            <span class="category-card__badge">Rareza Máxima</span>
+                                class="apc-category-card__image">
+                            <div class="apc-category-card__overlay apc-category-card__overlay--primary"></div>
+                            <span class="apc-category-card__badge">Rareza Máxima</span>
                         </div>
-                        <div class="category-card__content">
-                            <div class="category-card__icon-wrapper category-card__icon-wrapper--primary">
+                        <div class="apc-category-card__content">
+                            <div class="apc-category-card__icon-wrapper apc-category-card__icon-wrapper--primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -227,10 +229,11 @@
                                     <circle cx="12" cy="8" r="6" />
                                 </svg>
                             </div>
-                            <h3 class="category-card__title">Ediciones Esp.</h3>
-                            <p class="category-card__description">Artículos de tirada limitada y coleccionables ultra
+                            <h3 class="apc-category-card__title">Ediciones Esp.</h3>
+                            <p class="apc-category-card__description">Artículos de tirada limitada y coleccionables
+                                ultra
                                 raros.</p>
-                            <a href="#" class="category-card__btn" aria-label="Explorar Hogar">
+                            <a href="#" class="apc-category-card__btn" aria-label="Explorar Hogar">
                                 Explorar
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -313,7 +316,7 @@
                         Recibe noticias de eventos y ofertas exclusivas.
                     </p>
                     <form class="d-flex gap-2" aria-label="Formulario de suscripción al boletín">
-                        <label for="newsletter-email" class="visually-hidden">Tu correo electrónico</label>
+                        <label for="newsletter-email" class="apc-visually-hidden">Tu correo electrónico</label>
                         <input id="newsletter-email" class="site-footer__newsletter-input border-0 rounded-1"
                             type="email" placeholder="Tu email" required>
                         <button class="site-footer__newsletter-btn" type="submit" aria-label="Suscribirse al boletín">

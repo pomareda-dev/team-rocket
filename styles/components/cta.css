@@ -1,32 +1,31 @@
-/* CTA SECTION */
-.cta {
+.apc-cta {
   padding: 3.5rem 1.25rem 5rem;
 }
 
-.cta__inner {
+.apc-cta__inner {
   background: #ff0000;
   overflow: hidden;
   box-shadow: 0 20px 60px rgba(255, 0, 0, 0.3);
 }
 
-.cta__decoration {
+.apc-cta__decoration {
   opacity: 0.25;
   pointer-events: none;
   height: 15rem;
   width: 15rem;
 }
 
-.cta__content {
+.apc-cta__content {
   z-index: 1;
 }
 
-.cta__title {
+.apc-cta__title {
   font-size: clamp(1.625rem, 5vw, 3rem);
   font-weight: 900;
   line-height: 1.15;
 }
 
-.cta__description {
+.apc-cta__description {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.9);
   max-width: 36rem;
