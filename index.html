@@ -18,14 +18,14 @@
 </head>
 
 <body>
-    <header class="site-header sticky-top py-1">
+    <header class="apc-site-header sticky-top py-1">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a href="/index.html" class="navbar-brand logo" aria-label="Team Rocket Store - Inicio">
-                    <div class="logo__icon" aria-hidden="true">
+                <a href="/index.html" class="navbar-brand apc-logo" aria-label="Team Rocket Store - Inicio">
+                    <div class="apc-logo__icon" aria-hidden="true">
                         <img src="/images/rocket.svg" alt="Rocket">
                     </div>
-                    <span class="logo__text">Team <span>Rocket</span> Store</span>
+                    <span class="apc-logo__text">Team <span>Rocket</span> Store</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,11 @@
                             <a class="nav-link" href="/contacto.html">Contacto</a>
                         </li>
                     </ul>
-                    <form class="search" role="search">
-                        <div class="search__wrapper">
-                            <img src="/images/search.svg" class="search__icon" alt="Search">
+                    <form class="apc-search" role="search">
+                        <div class="apc-search__wrapper">
+                            <img src="/images/search.svg" class="apc-search__icon" alt="Search">
                             <label for="search-desktop" class="apc-visually-hidden">Buscar productos</label>
-                            <input id="search-desktop" class="search__input" type="search"
+                            <input id="search-desktop" class="apc-search__input" type="search"
                                 placeholder="Busca tu Pokémon favorito..."
                                 aria-label="Buscar productos de Pokémon y Nintendo">
                         </div>
@@ -324,8 +324,8 @@
             </div>
         </section>
 
-        <section class="section apc-section--alt" aria-labelledby="categories-title">
-            <div class="apc-section__card">
+        <section class="apc-section--alt" aria-labelledby="categories-title">
+            <div class="apc-section__card py-5">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -453,24 +453,24 @@
         </section>
     </main>
 
-    <footer class="site-footer pt-5 px-4 pb-4">
+    <footer class="apc-site-footer pt-5 px-4 pb-4">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <a href="/index.html" class="logo" aria-label="Team Rocket Store">
-                        <div class="logo__icon" aria-hidden="true">
+                    <a href="/index.html" class="apc-logo" aria-label="Team Rocket Store">
+                        <div class="apc-logo__icon" aria-hidden="true">
                             <img src="/images/rocket.svg" alt="Rocket">
                         </div>
-                        <span class="logo__text text-white">Team <span>Rocket</span> Store</span>
+                        <span class="apc-logo__text text-white">Team <span>Rocket</span> Store</span>
                     </a>
-                    <p class="site-footer__brand-description mt-3">
+                    <p class="apc-site-footer__brand-description mt-3">
                         Tu destino número uno para todo lo relacionado con el universo
                         Pokémon y Nintendo. Únete al equipo y conquista la liga.
                     </p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-2">
                     <nav aria-label="Links de la tienda">
-                        <h3 class="site-footer__heading text-uppercase text-white mb-3">Tienda</h3>
+                        <h3 class="apc-site-footer__heading text-uppercase text-white mb-3">Tienda</h3>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a href="/categorias.html#videojuegos" class="nav-link">
@@ -497,7 +497,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-2">
                     <nav aria-label="Links de soporte">
-                        <h3 class="site-footer__heading text-uppercase text-white mb-3">Soporte</h3>
+                        <h3 class="apc-site-footer__heading text-uppercase text-white mb-3">Soporte</h3>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Envíos y Entregas</a>
@@ -515,15 +515,16 @@
                     </nav>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="site-footer__heading text-uppercase text-white mb-3">Boletín</h3>
-                    <p class="site-footer__newsletter-text mb-3">
+                    <h3 class="apc-site-footer__heading text-uppercase text-white mb-3">Boletín</h3>
+                    <p class="apc-site-footer__newsletter-text mb-3">
                         Recibe noticias de eventos y ofertas exclusivas.
                     </p>
                     <form class="d-flex gap-2" aria-label="Formulario de suscripción al boletín">
                         <label for="newsletter-email" class="apc-visually-hidden">Tu correo electrónico</label>
-                        <input id="newsletter-email" class="site-footer__newsletter-input border-0 rounded-1"
+                        <input id="newsletter-email" class="apc-site-footer__newsletter-input border-0 rounded-1"
                             type="email" placeholder="Tu email" required>
-                        <button class="site-footer__newsletter-btn" type="submit" aria-label="Suscribirse al boletín">
+                        <button class="apc-site-footer__newsletter-btn" type="submit"
+                            aria-label="Suscribirse al boletín">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round">
@@ -537,7 +538,7 @@
             </div>
         </div>
 
-        <div class="container site-footer__bottom mt-5 pt-4">
+        <div class="container apc-site-footer__bottom mt-5 pt-4">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
                     <p>© 2026 Team Rocket Store. Todos los derechos reservados.</p>

@@ -1,14 +1,14 @@
-.search {
+.apc-search {
   flex: 1;
   max-width: 26rem;
 }
 
-.search__wrapper {
+.apc-search__wrapper {
   position: relative;
   width: 100%;
 }
 
-.search__icon {
+.apc-search__icon {
   position: absolute;
   left: 1rem;
   top: 50%;
@@ -16,7 +16,7 @@
   pointer-events: none;
 }
 
-.search__input {
+.apc-search__input {
   width: 100%;
   background: #f1f5f9;
   border: none;
@@ -28,9 +28,9 @@
   color: #0f172a;
 }
 
-.search__input:focus {
+.apc-search__input:focus {
   box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.35);
 }
-.search__input::placeholder {
+.apc-search__input::placeholder {
   color: #94a3b8;
 }

@@ -9,7 +9,6 @@
 @import "./layout/header.css";
 @import "./layout/search.css";
 @import "./layout/footer.css";
-@import "./layout/bottom-nav.css";
 
 /* COMPONENTS */
 @import "./components/hero.css";
