@@ -38,11 +38,11 @@
   margin-inline: auto;
 }
 
-.apc-category-card {
+/* .apc-category-card {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-}
+} */
 
 .category-card--featured {
   grid-column: span 1;

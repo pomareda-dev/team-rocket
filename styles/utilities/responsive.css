@@ -35,9 +35,9 @@
   }
 
   /* Categories page tablet */
-  .apc-category-card {
+  /* .apc-category-card {
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
   .category-card--featured {
     grid-column: span 2;
   }
@@ -86,10 +86,10 @@
   .categories-section {
     padding: 3rem 1.5rem 5rem;
   }
-  .apc-category-card {
+  /* .apc-category-card {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-  }
+  } */
   .category-card--featured {
     grid-column: span 2;
   }
