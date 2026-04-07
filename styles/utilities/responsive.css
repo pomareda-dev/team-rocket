@@ -16,25 +16,16 @@
   body {
     padding-bottom: 0;
   }
-  .site-header__search-mobile {
-    display: none;
-  }
-  .site-header__mobile-nav {
-    display: none;
-  }
-  .search {
+  .apc-search {
     display: flex;
-  }
-  .bottom-nav {
-    display: none;
   }
   .benefits__grid {
     grid-template-columns: repeat(4, 1fr);
   }
-  .site-footer__grid {
+  .apc-site-footer__grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .site-footer__bottom {
+  .apc-site-footer__bottom {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
@@ -44,9 +35,9 @@
   }
 
   /* Categories page tablet */
-  .apc-category-card {
+  /* .apc-category-card {
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
   .category-card--featured {
     grid-column: span 2;
   }
@@ -84,7 +75,7 @@
   .section__card {
     padding: 3rem;
   }
-  .site-footer__grid {
+  .apc-site-footer__grid {
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
 
@@ -95,10 +86,10 @@
   .categories-section {
     padding: 3rem 1.5rem 5rem;
   }
-  .apc-category-card {
+  /* .apc-category-card {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-  }
+  } */
   .category-card--featured {
     grid-column: span 2;
   }

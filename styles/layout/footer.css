@@ -1,9 +1,9 @@
-.site-footer {
+.apc-site-footer {
   background: #0f172a;
   color: #94a3b8;
 }
 
-.site-footer .nav-link {
+.apc-site-footer .nav-link {
   --bs-nav-link-color: #94a3b8;
   --bs-nav-link-hover-color: #ffffff;
   --bs-nav-link-font-size: 0.875rem;
@@ -11,22 +11,22 @@
   --bs-nav-link-padding-x: 0;
 }
 
-.site-footer__brand-description {
+.apc-site-footer__brand-description {
   font-size: 0.875rem;
   line-height: 1.7;
 }
 
-.site-footer__heading {
+.apc-site-footer__heading {
   font-size: 0.6875rem;
   font-weight: 700;
   letter-spacing: 0.1em;
 }
 
-.site-footer__newsletter-text {
+.apc-site-footer__newsletter-text {
   font-size: 0.75rem;
 }
 
-.site-footer__newsletter-input {
+.apc-site-footer__newsletter-input {
   flex: 1;
   background: #1e293b;
   padding: 0.625rem 0.875rem;
@@ -34,14 +34,14 @@
   color: #fff;
   outline: none;
 }
-.site-footer__newsletter-input::placeholder {
+.apc-site-footer__newsletter-input::placeholder {
   color: #64748b;
 }
-.site-footer__newsletter-input:focus {
+.apc-site-footer__newsletter-input:focus {
   box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.4);
 }
 
-.site-footer__newsletter-btn {
+.apc-site-footer__newsletter-btn {
   background: #ff0000;
   color: #fff;
   padding: 0.625rem 0.875rem;
@@ -50,11 +50,11 @@
   align-items: center;
   transition: background 0.25s ease;
 }
-.site-footer__newsletter-btn:hover {
+.apc-site-footer__newsletter-btn:hover {
   background: #cc0000;
 }
 
-.site-footer__bottom {
+.apc-site-footer__bottom {
   border-top: 1px solid #1e293b;
   font-size: 0.75rem;
 }

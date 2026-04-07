@@ -18,14 +18,14 @@
 </head>
 
 <body>
-    <header class="site-header sticky-top py-1">
+    <header class="apc-site-header sticky-top py-1">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a href="/index.html" class="navbar-brand logo" aria-label="Team Rocket Store - Inicio">
-                    <div class="logo__icon" aria-hidden="true">
+                <a href="/index.html" class="navbar-brand apc-logo" aria-label="Team Rocket Store - Inicio">
+                    <div class="apc-logo__icon" aria-hidden="true">
                         <img src="/images/rocket.svg" alt="Rocket">
                     </div>
-                    <span class="logo__text">Team <span>Rocket</span> Store</span>
+                    <span class="apc-logo__text">Team <span>Rocket</span> Store</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,11 @@
                             <a class="nav-link" href="/contacto.html">Contacto</a>
                         </li>
                     </ul>
-                    <form class="search" role="search">
-                        <div class="search__wrapper">
-                            <img src="/images/search.svg" class="search__icon" alt="Search">
+                    <form class="apc-search" role="search">
+                        <div class="apc-search__wrapper">
+                            <img src="/images/search.svg" class="apc-search__icon" alt="Search">
                             <label for="search-desktop" class="apc-visually-hidden">Buscar productos</label>
-                            <input id="search-desktop" class="search__input" type="search"
+                            <input id="search-desktop" class="apc-search__input" type="search"
                                 placeholder="Busca tu Pokémon favorito..."
                                 aria-label="Buscar productos de Pokémon y Nintendo">
                         </div>
@@ -324,20 +324,20 @@
             </div>
         </section>
 
-        <section class="section apc-section--alt" aria-labelledby="categories-title">
-            <div class="apc-section__card">
+        <section class="apc-section--alt" aria-labelledby="categories-title">
+            <div class="apc-section__card py-5">
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <h2 id="categories-title" class="apc-section__title d-flex align-items-center gap-2 mb-4">
+                            <h2 id="categories-title" class="apc-section__title d-flex align-items-center gap-2 mb-5">
                                 <span aria-hidden="true">🕹️</span> Nuestras Categorías
                             </h2>
 
                             <div class="row" aria-label="Categorías de productos">
                                 <div class="col-6 col-md-4 col-lg">
-                                    <a href="/categorias.html#videojuegos" class="apc-category-card mb-4 mb-lg-0"
+                                    <a href="/categorias.html#videojuegos" class="apc-home-category-card mb-4 mb-lg-0"
                                         aria-label="Videojuegos">
-                                        <div class="apc-category-card__icon apc-category-card__icon--blue"
+                                        <div class="apc-home-category-card__icon apc-home-category-card__icon--blue"
                                             aria-hidden="true">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -350,13 +350,13 @@
                                                     d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
                                             </svg>
                                         </div>
-                                        <span class="apc-category-card__label">Videojuegos</span>
+                                        <span class="apc-home-category-card__label">Videojuegos</span>
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 col-lg">
-                                    <a href="/categorias.html#figuras" class="apc-category-card mb-4 mb-lg-0"
+                                    <a href="/categorias.html#figuras" class="apc-home-category-card mb-4 mb-lg-0"
                                         aria-label="Figuras">
-                                        <div class="apc-category-card__icon apc-category-card__icon--yellow"
+                                        <div class="apc-home-category-card__icon apc-home-category-card__icon--yellow"
                                             aria-hidden="true">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -368,13 +368,13 @@
                                                 <circle cx="17" cy="17" r="2" />
                                             </svg>
                                         </div>
-                                        <span class="apc-category-card__label">Figuras</span>
+                                        <span class="apc-home-category-card__label">Figuras</span>
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 col-lg">
-                                    <a href="/categorias.html#ropa" class="apc-category-card mb-4 mb-lg-0"
+                                    <a href="/categorias.html#ropa" class="apc-home-category-card mb-4 mb-lg-0"
                                         aria-label="Ropa">
-                                        <div class="apc-category-card__icon apc-category-card__icon--red"
+                                        <div class="apc-home-category-card__icon apc-home-category-card__icon--red"
                                             aria-hidden="true">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -383,13 +383,13 @@
                                                 <path d="M4 21a2 2 0 0 1-1.1-3.7L12 11l9.2 6.4A2 2 0 0 1 20 21Z" />
                                             </svg>
                                         </div>
-                                        <span class="apc-category-card__label">Ropa</span>
+                                        <span class="apc-home-category-card__label">Ropa</span>
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 col-lg">
-                                    <a href="/categorias.html#hogar" class="apc-category-card mb-4 mb-lg-0"
+                                    <a href="/categorias.html#hogar" class="apc-home-category-card mb-4 mb-lg-0"
                                         aria-label="Hogar">
-                                        <div class="apc-category-card__icon apc-category-card__icon--green"
+                                        <div class="apc-home-category-card__icon apc-home-category-card__icon--green"
                                             aria-hidden="true">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -399,13 +399,13 @@
                                                     d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                                             </svg>
                                         </div>
-                                        <span class="apc-category-card__label">Hogar</span>
+                                        <span class="apc-home-category-card__label">Hogar</span>
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 col-lg">
                                     <a href="/categorias.html#ediciones-especiales"
-                                        class="apc-category-card mb-4 mb-lg-0" aria-label="Ediciones Especiales">
-                                        <div class="apc-category-card__icon apc-category-card__icon--purple"
+                                        class="apc-home-category-card mb-4 mb-lg-0" aria-label="Ediciones Especiales">
+                                        <div class="apc-home-category-card__icon apc-home-category-card__icon--purple"
                                             aria-hidden="true">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -415,7 +415,7 @@
                                                 <circle cx="12" cy="8" r="6" />
                                             </svg>
                                         </div>
-                                        <span class="apc-category-card__label">Ediciones Esp.</span>
+                                        <span class="apc-home-category-card__label">Ediciones Esp.</span>
                                     </a>
                                 </div>
                             </div>
@@ -453,24 +453,24 @@
         </section>
     </main>
 
-    <footer class="site-footer pt-5 px-4 pb-4">
+    <footer class="apc-site-footer pt-5 px-4 pb-4">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <a href="/index.html" class="logo" aria-label="Team Rocket Store">
-                        <div class="logo__icon" aria-hidden="true">
+                    <a href="/index.html" class="apc-logo" aria-label="Team Rocket Store">
+                        <div class="apc-logo__icon" aria-hidden="true">
                             <img src="/images/rocket.svg" alt="Rocket">
                         </div>
-                        <span class="logo__text text-white">Team <span>Rocket</span> Store</span>
+                        <span class="apc-logo__text text-white">Team <span>Rocket</span> Store</span>
                     </a>
-                    <p class="site-footer__brand-description mt-3">
+                    <p class="apc-site-footer__brand-description mt-3">
                         Tu destino número uno para todo lo relacionado con el universo
                         Pokémon y Nintendo. Únete al equipo y conquista la liga.
                     </p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-2">
                     <nav aria-label="Links de la tienda">
-                        <h3 class="site-footer__heading text-uppercase text-white mb-3">Tienda</h3>
+                        <h3 class="apc-site-footer__heading text-uppercase text-white mb-3">Tienda</h3>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a href="/categorias.html#videojuegos" class="nav-link">
@@ -497,7 +497,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-2">
                     <nav aria-label="Links de soporte">
-                        <h3 class="site-footer__heading text-uppercase text-white mb-3">Soporte</h3>
+                        <h3 class="apc-site-footer__heading text-uppercase text-white mb-3">Soporte</h3>
                         <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Envíos y Entregas</a>
@@ -515,15 +515,16 @@
                     </nav>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="site-footer__heading text-uppercase text-white mb-3">Boletín</h3>
-                    <p class="site-footer__newsletter-text mb-3">
+                    <h3 class="apc-site-footer__heading text-uppercase text-white mb-3">Boletín</h3>
+                    <p class="apc-site-footer__newsletter-text mb-3">
                         Recibe noticias de eventos y ofertas exclusivas.
                     </p>
                     <form class="d-flex gap-2" aria-label="Formulario de suscripción al boletín">
                         <label for="newsletter-email" class="apc-visually-hidden">Tu correo electrónico</label>
-                        <input id="newsletter-email" class="site-footer__newsletter-input border-0 rounded-1"
+                        <input id="newsletter-email" class="apc-site-footer__newsletter-input border-0 rounded-1"
                             type="email" placeholder="Tu email" required>
-                        <button class="site-footer__newsletter-btn" type="submit" aria-label="Suscribirse al boletín">
+                        <button class="apc-site-footer__newsletter-btn" type="submit"
+                            aria-label="Suscribirse al boletín">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round">
@@ -537,7 +538,7 @@
             </div>
         </div>
 
-        <div class="container site-footer__bottom mt-5 pt-4">
+        <div class="container apc-site-footer__bottom mt-5 pt-4">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
                     <p>© 2026 Team Rocket Store. Todos los derechos reservados.</p>
