@@ -1,9 +1,5 @@
-/* About Hero */
 .about-hero {
-  position: relative;
   min-height: 500px;
-  display: flex;
-  align-items: center;
   overflow: hidden;
 }
 
@@ -283,7 +279,7 @@
 }
 
 /* About Values */
-.about-values__inner {
+.about-values {
   background: #ffffff;
   border-radius: 2.5rem;
   padding: 2rem;
