@@ -286,11 +286,6 @@
   color: #64748b;
 }
 
-.apc-about-values__grid {
-  display: grid;
-  gap: 1.5rem;
-}
-
 .apc-about-values__item {
   text-align: center;
   padding: 1.5rem;

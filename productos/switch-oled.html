@@ -61,94 +61,116 @@
     </header>
 
     <main>
-        <div class="product-detail">
-            <nav class="breadcrumb" aria-label="Breadcrumb">
-                <a href="/index.html" class="breadcrumb__link">Inicio</a>
-                <span class="breadcrumb__separator">/</span>
-                <a href="/categorias.html#videojuegos" class="breadcrumb__link">Videojuegos</a>
-                <span class="breadcrumb__separator">/</span>
-                <span aria-current="page">Nintendo Switch OLED</span>
+        <div class="container mt-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb apc-breadcrumb mb-4">
+                    <li class="breadcrumb-item apc-breadcrumb__link"><a href="/index.html">Inicio</a></li>
+                    <li class="breadcrumb-item apc-breadcrumb__link"><a
+                            href="/categorias.html#videojuegos">Videojuegos</a></li>
+                    <li class="breadcrumb-item apc-breadcrumb__link active" aria-current="page">Nintendo Switch OLED
+                    </li>
+                </ol>
             </nav>
+        </div>
 
-            <div class="product-detail__grid">
-                <div class="product-gallery">
-                    <img src="/images/switch-oled.jpg" alt="Nintendo Switch OLED Blanco" class="product-gallery__image"
-                        style="view-transition-name: switch-image;">
-                </div>
-
-                <div class="product-info">
-                    <span class="product-info__badge"
-                        style="background: rgba(15, 23, 42, 0.1); color: #0f172a;">Popular</span>
-                    <h1 class="product-info__title">Nintendo Switch OLED</h1>
-                    <div class="product-info__price">$349.99</div>
-                    <p class="product-info__description">
-                        Eleva tu experiencia de juego con la pantalla OLED de 7 pulgadas de colores vibrantes y
-                        contraste definido. La consola Nintendo Switch (modelo OLED) también incluye un soporte
-                        ajustable y ancho, una base con puerto LAN para conexión por cable, 64 GB de almacenamiento
-                        interno y audio optimizado.
-                    </p>
-
-                    <div class="product-info__meta">
-                        <div class="meta-item">
-                            <span class="meta-item__label">Estado</span>
-                            <span class="meta-item__value">Nuevo / Sellado</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Color</span>
-                            <span class="meta-item__value">Blanco / Neon</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Almacenamiento</span>
-                            <span class="meta-item__value">64 GB Internos</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Pantalla</span>
-                            <span class="meta-item__value">7.0" OLED Multi-touch</span>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="apc-product-gallery">
+                        <img src="/images/switch-oled.jpg" alt="Nintendo Switch OLED Blanco"
+                            class="apc-product-gallery__image" style="view-transition-name: switch-image;">
                     </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="apc-product-info">
+                        <span class="apc-product-info__badge"
+                            style="background: rgba(15, 23, 42, 0.1); color: #0f172a;">Popular</span>
+                        <h1 class="apc-product-info__title">Nintendo Switch OLED</h1>
+                        <div class="apc-product-info__price">$349.99</div>
+                        <p class="apc-product-info__description">
+                            Eleva tu experiencia de juego con la pantalla OLED de 7 pulgadas de colores vibrantes y
+                            contraste definido. La consola Nintendo Switch (modelo OLED) también incluye un soporte
+                            ajustable y ancho, una base con puerto LAN para conexión por cable, 64 GB de
+                            almacenamiento
+                            interno y audio optimizado.
+                        </p>
 
-                    <div class="product-actions">
-                        <button class="apc-btn apc-btn--primary">
-                            Comprar Ahora
-                        </button>
-                        <button class="apc-btn apc-btn--outline">
-                            Ver Accesorios
-                        </button>
+                        <div class="apc-product-info__meta">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Estado</span>
+                                        <span class="apc-meta-item__value">Nuevo / Sellado</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Color</span>
+                                        <span class="apc-meta-item__value">Blanco / Neon</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Almacenamiento</span>
+                                        <span class="apc-meta-item__value">64 GB Internos</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Pantalla</span>
+                                        <span class="apc-meta-item__value">7.0" OLED Multi-touch</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apc-product-actions">
+                            <button class="apc-btn apc-btn--primary">
+                                Comprar Ahora
+                            </button>
+                            <button class="apc-btn apc-btn--outline">
+                                Ver Accesorios
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="product-specifications">
-                <h2 class="specs__title">Especificaciones Técnicas</h2>
-                <div class="specs__table-wrapper">
-                    <table class="specs__table">
-                        <tbody class="specs__body">
-                            <tr class="specs__row">
-                                <td class="specs__label">Resolución Modo TV</td>
-                                <td class="specs__value">1080p vía HDMI</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Autonomía</td>
-                                <td class="specs__value">4.5 a 9 horas</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Conectividad</td>
-                                <td class="specs__value">Wi-Fi / Bluetooth 4.1</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Salida de Audio</td>
-                                <td class="specs__value">PCM Lineal 5.1</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Peso</td>
-                                <td class="specs__value">420g (con Joy-Con)</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Garantía</td>
-                                <td class="specs__value">12 meses oficial</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="container apc-product-specifications mb-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="apc-specs__title">Especificaciones Técnicas</h2>
+                    <div class="apc-specs__table-wrapper">
+                        <table class="apc-specs__table">
+                            <tbody class="apc-specs__body">
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Resolución Modo TV</td>
+                                    <td class="apc-specs__value">1080p vía HDMI</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Autonomía</td>
+                                    <td class="apc-specs__value">4.5 a 9 horas</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Conectividad</td>
+                                    <td class="apc-specs__value">Wi-Fi / Bluetooth 4.1</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Salida de Audio</td>
+                                    <td class="apc-specs__value">PCM Lineal 5.1</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Peso</td>
+                                    <td class="apc-specs__value">420g (con Joy-Con)</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Garantía</td>
+                                    <td class="apc-specs__value">12 meses oficial</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

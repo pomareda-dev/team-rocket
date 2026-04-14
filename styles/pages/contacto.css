@@ -167,14 +167,6 @@
   border: 1px solid #e2e8f0;
 }
 
-.apc-contact-form__title {
-  font-size: 1.75rem;
-  font-weight: 800;
-  color: #0f172a;
-  margin-bottom: 2rem;
-  letter-spacing: -0.02em;
-}
-
 .apc-contact-form__legend {
   font-size: 1.25rem;
   font-weight: 800;
@@ -215,12 +207,6 @@
 
 .apc-contact-form__fieldset:last-of-type {
   margin-bottom: 1.5rem;
-}
-
-.apc-contact-table-section {
-  padding: 0 1.25rem 5rem;
-  max-width: 1280px;
-  margin-inline: auto;
 }
 
 .apc-contact-table-card {

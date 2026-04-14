@@ -61,92 +61,114 @@
     </header>
 
     <main>
-        <div class="product-detail">
-            <nav class="breadcrumb" aria-label="Breadcrumb">
-                <a href="/index.html" class="breadcrumb__link">Inicio</a>
-                <span class="breadcrumb__separator">/</span>
-                <a href="/categorias.html#figuras" class="breadcrumb__link">Figuras</a>
-                <span class="breadcrumb__separator">/</span>
-                <span aria-current="page">Figura Pikachu Edición Especial</span>
+        <div class="container mt-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb apc-breadcrumb mb-4">
+                    <li class="breadcrumb-item apc-breadcrumb__link"><a href="/index.html">Inicio</a></li>
+                    <li class="breadcrumb-item apc-breadcrumb__link"><a href="/categorias.html#figuras">Figuras</a></li>
+                    <li class="breadcrumb-item apc-breadcrumb__link active" aria-current="page">Figura Pikachu Edición
+                        Especial</li>
+                </ol>
             </nav>
+        </div>
 
-            <div class="product-detail__grid">
-                <div class="product-gallery">
-                    <img src="/images/pikachu-toy.png" alt="Figura Pikachu Edición Especial"
-                        class="product-gallery__image" style="view-transition-name: pikachu-image;">
-                </div>
-
-                <div class="product-info">
-                    <span class="product-info__badge">Nuevo Lanzamiento</span>
-                    <h1 class="product-info__title">Figura Pikachu Edición Especial</h1>
-                    <div class="product-info__price">$49.99</div>
-                    <p class="product-info__description">
-                        Ilumina tu colección con esta exclusiva figura de Pikachu. Diseñada con un nivel de detalle
-                        asombroso, esta pieza coleccionable captura la esencia del Pokémon más icónico. Cuenta con una
-                        base temática que proyecta un brillo eléctrico envolvente.
-                    </p>
-
-                    <div class="product-info__meta">
-                        <div class="meta-item">
-                            <span class="meta-item__label">Disponibilidad</span>
-                            <span class="meta-item__value">En Stock (Pocas unidades)</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Referencia</span>
-                            <span class="meta-item__value">TR-PKA-001</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Material</span>
-                            <span class="meta-item__value">PVC Premium / ABS</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Dimensiones</span>
-                            <span class="meta-item__value">18cm de alto</span>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="apc-product-gallery">
+                        <img src="/images/pikachu-toy.png" alt="Figura Pikachu Edición Especial"
+                            class="apc-product-gallery__image" style="view-transition-name: pikachu-image;">
                     </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="apc-product-info">
+                        <span class="apc-product-info__badge">Nuevo Lanzamiento</span>
+                        <h1 class="apc-product-info__title">Figura Pikachu Edición Especial</h1>
+                        <div class="apc-product-info__price">$49.99</div>
+                        <p class="apc-product-info__description">
+                            Ilumina tu colección con esta exclusiva figura de Pikachu. Diseñada con un nivel de
+                            detalle
+                            asombroso, esta pieza coleccionable captura la esencia del Pokémon más icónico. Cuenta
+                            con una
+                            base temática que proyecta un brillo eléctrico envolvente.
+                        </p>
 
-                    <div class="product-actions">
-                        <button class="apc-btn apc-btn--primary">
-                            Comprar Ahora
-                        </button>
-                        <button class="apc-btn apc-btn--outline">
-                            Lista de Deseos
-                        </button>
+                        <div class="apc-product-info__meta">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Disponibilidad</span>
+                                        <span class="apc-meta-item__value">En Stock (Pocas unidades)</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Referencia</span>
+                                        <span class="apc-meta-item__value">TR-PKA-001</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Material</span>
+                                        <span class="apc-meta-item__value">PVC Premium / ABS</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Dimensiones</span>
+                                        <span class="apc-meta-item__value">18cm de alto</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apc-product-actions">
+                            <button class="apc-btn apc-btn--primary">
+                                Comprar Ahora
+                            </button>
+                            <button class="apc-btn apc-btn--outline">
+                                Lista de Deseos
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="product-specifications">
-                <h2 class="specs__title">Especificaciones Técnicas</h2>
-                <div class="specs__table-wrapper">
-                    <table class="specs__table">
-                        <tbody class="specs__body">
-                            <tr class="specs__row">
-                                <td class="specs__label">Fabricante</td>
-                                <td class="specs__value">Rocket Workshop</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Peso</td>
-                                <td class="specs__value">450g</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Baterías</td>
-                                <td class="specs__value">3x AAA (No incluidas)</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Tipo de Iluminación</td>
-                                <td class="specs__value">LED Thunder Yellow</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Edad Recomendada</td>
-                                <td class="specs__value">14+ años</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Edición</td>
-                                <td class="specs__value">Limitada (2026)</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="container apc-product-specifications mb-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="apc-specs__title">Especificaciones Técnicas</h2>
+                    <div class="apc-specs__table-wrapper">
+                        <table class="apc-specs__table">
+                            <tbody class="apc-specs__body">
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Fabricante</td>
+                                    <td class="apc-specs__value">Rocket Workshop</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Peso</td>
+                                    <td class="apc-specs__value">450g</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Baterías</td>
+                                    <td class="apc-specs__value">3x AAA (No incluidas)</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Tipo de Iluminación</td>
+                                    <td class="apc-specs__value">LED Thunder Yellow</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Edad Recomendada</td>
+                                    <td class="apc-specs__value">14+ años</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Edición</td>
+                                    <td class="apc-specs__value">Limitada (2026)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
