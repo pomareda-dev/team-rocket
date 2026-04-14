@@ -61,95 +61,122 @@
     </header>
 
     <main>
-        <div class="product-detail">
-            <nav class="breadcrumb" aria-label="Breadcrumb">
-                <a href="/index.html" class="breadcrumb__link">Inicio</a>
-                <span class="breadcrumb__separator">/</span>
-                <a href="/categorias.html#ropa" class="breadcrumb__link">Ropa Oficial</a>
-                <span class="breadcrumb__separator">/</span>
-                <span aria-current="page">Gorra Pokémon League</span>
+        <div class="container mt-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb apc-breadcrumb mb-4">
+                    <li class="breadcrumb-item apc-breadcrumb__link"><a href="/index.html">Inicio</a></li>
+                    <li class="breadcrumb-item apc-breadcrumb__link"><a href="/categorias.html#ropa">Ropa Oficial</a>
+                    </li>
+                    <li class="breadcrumb-item apc-breadcrumb__link active" aria-current="page">Gorra Pokémon League
+                    </li>
+                </ol>
             </nav>
+        </div>
 
-            <div class="product-detail__grid">
-                <div class="product-gallery">
-                    <img src="/images/gorra-league.png" alt="Gorra Pokémon League" class="product-gallery__image"
-                        style="view-transition-name: gorra-image;">
-                </div>
-
-                <div class="product-info">
-                    <span class="product-info__badge">Exclusivo Web</span>
-                    <h1 class="product-info__title">Gorra Pokémon League</h1>
-                    <div class="product-info__price">$24.99</div>
-                    <p class="product-info__description">
-                        Lleva el símbolo de los campeones. Esta gorra de estilo urbano cuenta con el bordado oficial de
-                        la Liga Pokémon en relieve de alta densidad. Fabricada con materiales transpirables de primera
-                        calidad, es el accesorio definitivo para enfrentar cualquier desafío bajo el sol.
-                    </p>
-
-                    <div class="product-info__meta">
-                        <div class="meta-item">
-                            <span class="meta-item__label">Talla</span>
-                            <span class="meta-item__value">Única (Ajustable)</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Temporada</span>
-                            <span class="meta-item__value">Colección 2026</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Tejido</span>
-                            <span class="meta-item__value">80% Algodón / 20% Poliéster</span>
-                        </div>
-                        <div class="meta-item">
-                            <span class="meta-item__label">Cierre</span>
-                            <span class="meta-item__value">Snapback Retro</span>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="apc-product-gallery">
+                        <img src="/images/gorra-league.png" alt="Gorra Pokémon League"
+                            class="apc-product-gallery__image" style="view-transition-name: gorra-image;">
                     </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="apc-product-info">
+                        <span class="apc-product-info__badge">Exclusivo Web</span>
+                        <h1 class="apc-product-info__title">Gorra Pokémon League</h1>
+                        <div class="apc-product-info__price">$24.99</div>
+                        <p class="apc-product-info__description">
+                            Lleva el símbolo de los campeones. Esta gorra de estilo urbano cuenta con el bordado
+                            oficial de
+                            la Liga Pokémon en relieve de alta densidad. Fabricada con materiales transpirables de
+                            primera
+                            calidad, es el accesorio definitivo para enfrentar cualquier desafío bajo el sol.
+                        </p>
 
-                    <div class="product-actions">
-                        <button class="apc-btn apc-btn--primary">
-                            Comprar Ahora
-                        </button>
-                        <button class="apc-btn apc-btn--outline">
-                            Guía de Tallas
-                        </button>
+                        <div class="apc-product-info__meta">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Talla</span>
+                                        <span class="apc-meta-item__value">Única (Ajustable)</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Temporada</span>
+                                        <span class="apc-meta-item__value">Colección 2026</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Tejido</span>
+                                        <span class="apc-meta-item__value">80% Algodón / 20% Poliéster</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="apc-meta-item mb-3">
+                                        <span class="apc-meta-item__label">Cierre</span>
+                                        <span class="apc-meta-item__value">Snapback Retro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="apc-product-actions">
+                            <button class="apc-btn apc-btn--primary">
+                                Comprar Ahora
+                            </button>
+                            <button class="apc-btn apc-btn--outline">
+                                Guía de Tallas
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="product-specifications">
-                <h2 class="specs__title">Detalles del Producto</h2>
-                <div class="specs__table-wrapper">
-                    <table class="specs__table">
-                        <tbody class="specs__body">
-                            <tr class="specs__row">
-                                <td class="specs__label">Tipo de Bordado</td>
-                                <td class="specs__value">3D High Density</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Visera</td>
-                                <td class="specs__value">Pre-curvada rígida</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Instrucciones de Lavado</td>
-                                <td class="specs__value">Solo lavado a mano</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Color</td>
-                                <td class="specs__value">Blanco / Rojo / Negro</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Licencia</td>
-                                <td class="specs__value">Oficial Pokémon CO.</td>
-                            </tr>
-                            <tr class="specs__row">
-                                <td class="specs__label">Origen</td>
-                                <td class="specs__value">Importado</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+
+        </div>
+
+        <div class="container apc-product-specifications mb-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="apc-specs__title">Detalles del Producto</h2>
+                    <div class="apc-specs__table-wrapper">
+                        <table class="apc-specs__table">
+                            <tbody class="apc-specs__body">
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Tipo de Bordado</td>
+                                    <td class="apc-specs__value">3D High Density</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Visera</td>
+                                    <td class="apc-specs__value">Pre-curvada rígida</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Instrucciones de Lavado</td>
+                                    <td class="apc-specs__value">Solo lavado a mano</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Color</td>
+                                    <td class="apc-specs__value">Blanco / Rojo / Negro</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Licencia</td>
+                                    <td class="apc-specs__value">Oficial Pokémon CO.</td>
+                                </tr>
+                                <tr class="apc-specs__row">
+                                    <td class="apc-specs__label">Origen</td>
+                                    <td class="apc-specs__value">Importado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
+
     </main>
 
     <footer class="apc-site-footer pt-5 px-4 pb-4">

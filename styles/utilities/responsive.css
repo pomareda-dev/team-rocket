@@ -1,26 +1,12 @@
-/* RESPONSIVE — TABLET & DESKTOP GLOBAL */
-
 @media (min-width: 640px) {
   .apc-hero__actions {
     flex-direction: row;
   }
-  .cta__actions {
-    flex-direction: row;
-  }
-  .products-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (min-width: 768px) {
-  body {
-    padding-bottom: 0;
-  }
   .apc-search {
     display: flex;
-  }
-  .benefits__grid {
-    grid-template-columns: repeat(4, 1fr);
   }
   .apc-site-footer__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -33,20 +19,9 @@
   .apc-hero__actions {
     justify-content: center;
   }
-
-  /* Categories page tablet */
-  /* .apc-category-card {
-    grid-template-columns: repeat(2, 1fr);
-  } */
-  .category-card--featured {
-    grid-column: span 2;
-  }
 }
 
 @media (min-width: 1024px) {
-  .site-nav {
-    display: block;
-  }
   .apc-hero {
     padding: 5rem 1.5rem;
   }
@@ -66,166 +41,119 @@
   .apc-hero__badge {
     margin-bottom: 1.5rem;
   }
-  .products-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .categories-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-  .section__card {
+  .apc-section__card {
     padding: 3rem;
   }
   .apc-site-footer__grid {
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
-
-  /* Categories page responsive */
-  .categories-hero {
+  .apc-categories-hero {
     padding: 4rem 1.5rem 3rem;
   }
-  .categories-section {
+  .apc-categories-section {
     padding: 3rem 1.5rem 5rem;
   }
-  /* .apc-category-card {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  } */
-  .category-card--featured {
-    grid-column: span 2;
-  }
-  .category-card__image-wrapper {
-    aspect-ratio: 4/3;
-  }
-  .category-card__content {
-    padding: 2rem;
-  }
-  .category-card__icon-wrapper {
+  .apc-category-card__icon-wrapper {
     top: -2rem;
     width: 4rem;
     height: 4rem;
   }
 
-  /* About Us responsive */
-  .about-hero {
+  .apc-about-hero {
     min-height: 500px;
   }
-  .about-hero__inner {
-    padding: 6rem 1.5rem;
-  }
-  .about-content {
+  .apc-about-content {
     padding: 0 1.5rem;
     margin-top: -3rem;
     gap: 2rem;
   }
-  .about-story {
+  .apc-about-story {
     padding: 3rem;
   }
-  .about-story__grid {
+  .apc-about-story__grid {
     flex-direction: row;
     align-items: center;
     gap: 3rem;
   }
-  .about-story__text {
+  .apc-about-story__text {
     flex: 1;
     order: 0;
   }
-  .about-story__title {
+  .apc-about-story__title {
     font-size: 2.5rem;
   }
-  .about-story__image-wrapper {
+  .apc-about-story__image-wrapper {
     flex: 1;
     max-width: 560px;
   }
-  .about-mv__inner {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-  .about-mv__card {
+  .apc-about-mv__card {
     padding: 2.5rem;
   }
-  .about-values__inner {
-    padding: 3rem;
-  }
-  .about-values__header {
+  .apc-about-values__header {
     margin-bottom: 4rem;
   }
-  .about-values__title {
+  .apc-about-values__title {
     font-size: 2.5rem;
   }
-  .about-values__grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-  }
-  .about-cta {
+  .apc-about-cta {
     min-height: 350px;
     margin-bottom: 5rem;
   }
-  .about-cta__inner {
+  .apc-about-cta__inner {
     padding: 4rem;
   }
 
-  /* Contact responsive */
-  .contact-hero__inner {
+  .apc-contact-hero__inner {
     padding: 5rem 1.5rem;
   }
-  .contact-content {
+  .apc-contact-content {
     padding: 5rem 1.5rem;
   }
-  .contact-content__grid {
+  .apc-contact-content__grid {
     flex-direction: row;
     gap: 3rem;
   }
-  .contact-info {
+  .apc-contact-info {
     flex: 0 0 280px;
   }
-  .contact-form-wrapper {
+  .apc-contact-form-wrapper {
     flex: 1;
     padding: 2.5rem;
   }
-  .contact-form__title {
-    font-size: 2rem;
-  }
-  .contact-table-card {
+
+  .apc-contact-table-card {
     padding: 3rem;
   }
-  .contact-table-title {
+  .apc-contact-table-title {
     font-size: 2rem;
   }
-  .contact-map {
+  .apc-contact-map {
     padding: 0 1.5rem 5rem;
   }
-  .contact-map__info {
+  .apc-contact-map__info {
     top: 2rem;
     left: 2rem;
     padding: 2rem;
     max-width: 320px;
   }
-  .contact-map__container {
+  .apc-contact-map__container {
     aspect-ratio: unset;
     height: 500px;
   }
 }
 
 @media (min-width: 1280px) {
-  /* About Us */
-  .about-hero__inner {
-    padding: 6rem 2rem;
-  }
-  .about-content {
+  .apc-about-content {
     padding: 0 2rem;
   }
 
-  /* Contact */
-  .contact-hero__inner {
+  .apc-contact-hero__inner {
     padding: 6rem 2rem;
   }
-  .contact-content {
+  .apc-contact-content {
     padding: 5rem 2rem;
   }
-  .contact-table-section {
-    padding: 0 2rem 5rem;
-  }
-  .contact-map {
+  .apc-contact-map {
     padding: 0 2rem 5rem;
   }
 }
