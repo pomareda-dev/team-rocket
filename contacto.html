@@ -242,7 +242,8 @@
                                     </div>
                                 </div>
 
-                                <button type="submit" class="apc-btn apc-btn--primary apc-contact-form__submit">
+                                <button type="button" class="apc-btn apc-btn--primary apc-contact-form__submit"
+                                    data-bs-toggle="modal" data-bs-target="#confirmSubmitModal">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round">
@@ -252,6 +253,42 @@
                                     Enviar mensaje ahora
                                 </button>
                             </form>
+
+                            <div class="modal fade" id="confirmSubmitModal" tabindex="-1"
+                                aria-labelledby="confirmSubmitModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content apc-modal">
+                                        <div class="modal-header border-0 pb-0">
+                                            <h5 class="modal-title apc-modal__title d-flex align-items-center gap-2"
+                                                id="confirmSubmitModalLabel">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="text-danger">
+                                                    <circle cx="12" cy="12" r="10" />
+                                                    <path d="M12 16v-4" />
+                                                    <path d="M12 8h.01" />
+                                                </svg>
+                                                Confirmar Envío
+                                            </h5>
+                                            <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="apc-modal__text">¿Estás seguro que deseas enviar este mensaje al
+                                                equipo de Team Rocket Store?</p>
+                                        </div>
+                                        <div class="modal-footer border-0 pt-0 flex-nowrap">
+                                            <button type="button"
+                                                class="apc-btn apc-btn--outline w-50 justify-content-center"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="button"
+                                                class="apc-btn apc-btn--primary w-50 justify-content-center"
+                                                data-bs-dismiss="modal">Aceptar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
