@@ -1,5 +1,3 @@
-/* RESPONSIVE — TABLET & DESKTOP GLOBAL */
-
 @media (min-width: 640px) {
   .apc-hero__actions {
     flex-direction: row;
@@ -32,14 +30,6 @@
   }
   .apc-hero__actions {
     justify-content: center;
-  }
-
-  /* Categories page tablet */
-  /* .apc-category-card {
-    grid-template-columns: repeat(2, 1fr);
-  } */
-  .category-card--featured {
-    grid-column: span 2;
   }
 }
 
@@ -79,19 +69,11 @@
     grid-template-columns: 2fr 1fr 1fr 1fr;
   }
 
-  /* Categories page responsive */
-  .categories-hero {
+  .apc-categories-hero {
     padding: 4rem 1.5rem 3rem;
   }
   .categories-section {
     padding: 3rem 1.5rem 5rem;
-  }
-  /* .apc-category-card {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  } */
-  .category-card--featured {
-    grid-column: span 2;
   }
   .category-card__image-wrapper {
     aspect-ratio: 4/3;
@@ -105,14 +87,10 @@
     height: 4rem;
   }
 
-  /* About Us responsive */
   .about-hero {
     min-height: 500px;
   }
-  .about-hero__inner {
-    padding: 6rem 1.5rem;
-  }
-  .about-content {
+  .apc-about-content {
     padding: 0 1.5rem;
     margin-top: -3rem;
     gap: 2rem;
@@ -135,10 +113,6 @@
   .about-story__image-wrapper {
     flex: 1;
     max-width: 560px;
-  }
-  .about-mv__inner {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
   }
   .about-mv__card {
     padding: 2.5rem;
@@ -164,18 +138,17 @@
     padding: 4rem;
   }
 
-  /* Contact responsive */
-  .contact-hero__inner {
+  .apc-contact-hero__inner {
     padding: 5rem 1.5rem;
   }
-  .contact-content {
+  .apc-contact-content {
     padding: 5rem 1.5rem;
   }
-  .contact-content__grid {
+  .apc-contact-content__grid {
     flex-direction: row;
     gap: 3rem;
   }
-  .contact-info {
+  .apc-contact-info {
     flex: 0 0 280px;
   }
   .contact-form-wrapper {
@@ -191,41 +164,36 @@
   .contact-table-title {
     font-size: 2rem;
   }
-  .contact-map {
+  .apc-contact-map {
     padding: 0 1.5rem 5rem;
   }
-  .contact-map__info {
+  .apc-contact-map__info {
     top: 2rem;
     left: 2rem;
     padding: 2rem;
     max-width: 320px;
   }
-  .contact-map__container {
+  .apc-contact-map__container {
     aspect-ratio: unset;
     height: 500px;
   }
 }
 
 @media (min-width: 1280px) {
-  /* About Us */
-  .about-hero__inner {
-    padding: 6rem 2rem;
-  }
-  .about-content {
+  .apc-about-content {
     padding: 0 2rem;
   }
 
-  /* Contact */
-  .contact-hero__inner {
+  .apc-contact-hero__inner {
     padding: 6rem 2rem;
   }
-  .contact-content {
+  .apc-contact-content {
     padding: 5rem 2rem;
   }
   .contact-table-section {
     padding: 0 2rem 5rem;
   }
-  .contact-map {
+  .apc-contact-map {
     padding: 0 2rem 5rem;
   }
 }
