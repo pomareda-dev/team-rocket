@@ -3,11 +3,13 @@
   color: #64748b;
 }
 
-.apc-breadcrumb__link {
+.apc-breadcrumb__link a {
+  color: #64748b;
+  text-decoration: none;
   transition: color 0.25s ease;
 }
 
-.apc-breadcrumb__link:hover {
+.apc-breadcrumb__link a:hover {
   color: #ff0000;
 }
 
